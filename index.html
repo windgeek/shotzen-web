@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShotZen — Support</title>
+<meta name="description" content="Support for ShotZen, a quiet screenshot tool for macOS.">
+<link rel="stylesheet" href="shotzen.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <!-- The app's own mark: four corner brackets around a taiji, light on the
+       left, shade on the right — the same construction as the app icon. -->
+  <svg class="mark" viewBox="0 0 100 100" role="img" aria-label="ShotZen">
+    <g fill="none" stroke="#f2eef7" stroke-width="6" stroke-linecap="round">
+      <path d="M3 29.32 L3 19.92 A16.92 16.92 0 0 1 19.92 3 L29.32 3"/>
+      <path d="M70.68 3 L80.08 3 A16.92 16.92 0 0 1 97 19.92 L97 29.32"/>
+      <path d="M97 70.68 L97 80.08 A16.92 16.92 0 0 1 80.08 97 L70.68 97"/>
+      <path d="M29.32 97 L19.92 97 A16.92 16.92 0 0 1 3 80.08 L3 70.68"/>
+    </g>
+    <circle cx="50" cy="50" r="21.62" fill="#f2eef7"/>
+    <path d="M50 28.38 A10.81 10.81 0 0 1 50 50 A10.81 10.81 0 0 0 50 71.62 A21.62 21.62 0 0 0 50 28.38 Z" fill="#4f3578"/>
+    <circle cx="50" cy="39.19" r="3.46" fill="#4f3578"/>
+    <circle cx="50" cy="60.81" r="3.46" fill="#f2eef7"/>
+  </svg>
+  <h1>ShotZen</h1>
+  <p class="tagline">A quiet screenshot tool for macOS</p>
+  <hr class="rule">
+</header>
+
+<nav class="langs" aria-label="Language">
+  <button type="button" data-lang="en" aria-pressed="false">English</button>
+  <button type="button" data-lang="zh-Hans" aria-pressed="false">简体中文</button>
+  <button type="button" data-lang="zh-Hant" aria-pressed="false">繁體中文</button>
+  <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+  <button type="button" data-lang="de" aria-pressed="false">Deutsch</button>
+  <button type="button" data-lang="fr" aria-pressed="false">Français</button>
+</nav>
+
+<main>
+
+<!-- ===================== English ===================== -->
+<article lang="en">
+  <p class="lead">Something not working, or a feature you wish were there? Write
+  to me — one person builds ShotZen, and every message is read.</p>
+
+  <h2>Get in touch</h2><hr class="rule">
+  <div class="card">
+    <p class="mail"><a href="mailto:songlaoshi666@gmail.com">songlaoshi666@gmail.com</a></p>
+    <p>Replies usually go out within two days. If you are reporting a problem,
+    mentioning your macOS version and your Mac's chip saves a round trip.</p>
+  </div>
+
+  <h2>Common questions</h2><hr class="rule">
+
+  <div class="card">
+    <h3>macOS is asking for Screen Recording permission. Is that normal?</h3>
+    <p>Yes. macOS requires it of every screenshot tool — without it the system
+    hands back a blank image. Turn it on in <span class="path">System Settings ›
+    Privacy &amp; Security › Screen Recording</span>, then restart ShotZen.
+    macOS only reads this permission when an app launches, which is why the
+    restart is needed.</p>
+  </div>
+
+  <div class="card">
+    <h3>There is no icon in the Dock. Where is the app?</h3>
+    <p>In the menu bar, by design. Click its icon for the capture commands,
+    Settings, and the Guide. The default shortcuts are <kbd>⇧⌘A</kbd> for a
+    region, <kbd>⇧⌘W</kbd> for a window, and <kbd>⇧⌘F</kbd> for the full
+    screen; change them in <span class="path">Settings › Shortcuts</span>.</p>
+  </div>
+
+  <div class="card">
+    <h3>Where do my screenshots go?</h3>
+    <p>To the clipboard, and — if you switch it on — to a folder you choose.
+    Both settings live in <span class="path">Settings › Saving</span>. macOS
+    requires you to pick that folder yourself once; afterwards ShotZen saves
+    there without asking again.</p>
+  </div>
+
+  <div class="card">
+    <h3>How do I capture a page taller than the screen?</h3>
+    <p>Choose <span class="path">Scrolling capture</span> from the menu bar
+    icon, outline the area, then scroll by hand — either direction works.
+    ShotZen stitches as you go, ignores ground you have already covered, and
+    says so plainly if you scroll faster than it can follow. Click
+    <span class="path">Finish</span> when the page ends.</p>
+  </div>
+
+  <div class="card">
+    <h3>Can I keep a capture on top of my work?</h3>
+    <p>Yes — <span class="path">Pin to screen</span>. Drag it anywhere, scroll
+    to zoom, or hold <kbd>Option</kbd> and scroll to fade it into a reference
+    layer you can trace against. If a pin is in the way, turn on
+    <span class="path">Click Through</span>;
+    <span class="path">Make Pins Clickable Again</span> in the menu bar undoes
+    that.</p>
+  </div>
+
+  <div class="card">
+    <h3>How do I change the language?</h3>
+    <p><span class="path">Settings › General › Language</span>. English, 简体中文,
+    繁體中文, 日本語, Deutsch and Français are available. The change takes effect
+    after a restart.</p>
+  </div>
+
+  <div class="card">
+    <h3>How do I uninstall ShotZen?</h3>
+    <p>Drag it to the Trash. If you had turned on <span class="path">Launch at
+    login</span>, also clear the leftover entry in <span class="path">System
+    Settings › General › Login Items</span>.</p>
+  </div>
+
+  <h2>Requirements</h2><hr class="rule">
+  <div class="card">
+    <p>macOS 14 or later, on Apple silicon or Intel. Screen Recording
+    permission is required; nothing else is.</p>
+  </div>
+
+  <h2>Privacy</h2><hr class="rule">
+  <div class="card">
+    <p>ShotZen has no account, no analytics, and no network access of any kind.
+    Your captures never leave your Mac. The full statement is in the
+    <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+</article>
+
+<!-- ===================== 简体中文 ===================== -->
+<article lang="zh-Hans">
+  <p class="lead">遇到问题，或者想要某个功能？写信给我 —— ShotZen 由一个人开发，每封邮件都会看。</p> <h2>联系方式</h2><hr class="rule"> <div class="card"> <p class="mail"><a href="mailto:songlaoshi666@gmail.com">songlaoshi666@gmail.com</a></p> <p>一般两天内回复。如果是反馈问题，说明一下 macOS 版本和 Mac 的芯片型号，可以少来回一轮。</p> </div> <h2>常见问题</h2><hr class="rule"> <div class="card"> <h3>macOS 要求「屏幕录制」权限，正常吗？</h3> <p>正常。macOS 对所有截图工具都有这个要求 —— 没有它，系统只会返回一张空白图像。在<span class="path">系统设置 › 隐私与安全性 › 屏幕录制</span>中打开，然后重新启动 ShotZen。macOS 只在应用启动时读取这个权限，所以必须重启一次。</p> </div> <div class="card"> <h3>程序坞里没有图标，应用在哪？</h3> <p>在菜单栏，这是刻意的。点击菜单栏图标即可看到截图命令、设置和使用指引。默认快捷键：<kbd>⇧⌘A</kbd> 截取选区，<kbd>⇧⌘W</kbd> 截取窗口，<kbd>⇧⌘F</kbd> 截取全屏；可在<span class="path">设置 › 快捷键</span>中修改。</p> </div> <div class="card"> <h3>截图保存到哪里了？</h3> <p>进入剪贴板；如果你开启了对应开关，还会存入你指定的文件夹。两项都在<span class="path">设置 › 保存</span>里。macOS 要求这个文件夹必须由你亲自选定一次，之后 ShotZen 会直接保存，不再询问。</p> </div> <div class="card"> <h3>怎么截一屏放不下的长页面？</h3> <p>在菜单栏图标里选择<span class="path">长截图</span>，框出区域，然后手动滚动 —— 上下都可以。ShotZen 会边滚边拼，已经拼过的部分不会重复，滚得太快跟不上时也会明确提示。到底之后点<span class="path">完成</span>。</p> </div> <div class="card"> <h3>能把截图一直浮在工作界面上吗？</h3> <p>可以，用<span class="path">钉在屏幕上</span>。随意拖动，滚轮缩放，按住<kbd>Option</kbd> 滚动可以降低透明度，把它变成可以描摹的参考层。挡路时开启<span class="path">点击穿透</span>；菜单栏里的<span class="path">恢复贴图可点击</span>可以撤销。</p> </div> <div class="card"> <h3>怎么切换界面语言？</h3> <p><span class="path">设置 › 通用 › 界面语言</span>。提供 English、简体中文、繁體中文、日本語、Deutsch、Français。重启后生效。</p> </div> <div class="card"> <h3>怎么卸载？</h3> <p>拖到废纸篓即可。如果你曾开启<span class="path">登录时启动</span>，请再到<span class="path">系统设置 › 通用 › 登录项</span>中清理残留条目。</p> </div> <h2>运行要求</h2><hr class="rule"> <div class="card"> <p>macOS 14 或更高版本，Apple 芯片与 Intel 均可。只需要「屏幕录制」权限，别无其他。</p> </div> <h2>隐私</h2><hr class="rule"> <div class="card"> <p>ShotZen 没有账号，没有统计，也不具备任何联网能力。你的截图不会离开这台Mac。完整说明见<a href="privacy.html">隐私政策</a>。</p> </div>
+</article>
+
+<!-- ===================== 繁體中文 ===================== -->
+<article lang="zh-Hant">
+  <p class="lead">遇到問題，或希望加入某個功能？寫信給我 —— ShotZen 由一個人開發，每封信都會看。</p> <h2>聯絡方式</h2><hr class="rule"> <div class="card"> <p class="mail"><a href="mailto:songlaoshi666@gmail.com">songlaoshi666@gmail.com</a></p> <p>通常兩天內回覆。若是回報問題，附上 macOS 版本與 Mac 的晶片型號，可以少來回一次。</p> </div> <h2>常見問題</h2><hr class="rule"> <div class="card"> <h3>macOS 要求「螢幕錄製」權限，正常嗎？</h3> <p>正常。macOS 對所有螢幕擷取工具都有這項要求 —— 沒有它，系統只會傳回一張空白影像。請到<span class="path">系統設定 › 隱私權與安全性 › 螢幕錄製</span>開啟，然後重新啟動 ShotZen。macOS 只在 App 啟動時讀取這項權限，所以必須重開一次。</p> </div> <div class="card"> <h3>Dock 裡沒有圖示，App 在哪裡？</h3> <p>在選單列，這是刻意的設計。點一下選單列圖示即可看到擷取指令、設定與使用指引。預設快速鍵：<kbd>⇧⌘A</kbd> 擷取選取範圍、<kbd>⇧⌘W</kbd> 擷取視窗、<kbd>⇧⌘F</kbd> 擷取全螢幕；可在<span class="path">設定 › 快速鍵</span>中更改。</p> </div> <div class="card"> <h3>擷圖存到哪裡了？</h3> <p>會進入剪貼板；若你開啟了對應選項，也會存入你指定的檔案夾。兩者都在<span class="path">設定 › 儲存</span>裡。macOS 要求該檔案夾必須由你親自選定一次，之後 ShotZen 就會直接儲存，不再詢問。</p> </div> <div class="card"> <h3>怎麼擷取比螢幕更長的頁面？</h3> <p>在選單列圖示中選擇<span class="path">長截圖</span>，框出範圍，然後手動捲動 —— 上下皆可。ShotZen 會邊捲邊拼接，已經拼過的部分不會重複，捲太快跟不上時也會明白提示。到底之後按<span class="path">完成</span>。</p> </div> <div class="card"> <h3>可以讓擷圖一直浮在工作畫面上嗎？</h3> <p>可以，使用<span class="path">釘在螢幕上</span>。任意拖曳，滾動縮放，按住<kbd>Option</kbd> 捲動可降低不透明度，讓它成為可描摹的參考層。擋路時開啟<span class="path">點按穿透</span>；選單列中的<span class="path">恢復貼圖可點按</span>可以還原。</p> </div> <div class="card"> <h3>怎麼切換介面語言？</h3> <p><span class="path">設定 › 一般 › 介面語言</span>。提供 English、简体中文、繁體中文、日本語、Deutsch、Français。重新啟動後生效。</p> </div> <div class="card"> <h3>如何解除安裝？</h3> <p>拖到垃圾桶即可。若你曾開啟<span class="path">登入時啟動</span>，請再到<span class="path">系統設定 › 一般 › 登入項目</span>清除殘留項目。</p> </div> <h2>系統需求</h2><hr class="rule"> <div class="card"> <p>macOS 14 或以上，Apple 晶片與 Intel 皆可。只需要「螢幕錄製」權限，別無其他。</p> </div> <h2>隱私</h2><hr class="rule"> <div class="card"> <p>ShotZen 沒有帳號、沒有分析統計，也不具備任何連網能力。你的擷圖不會離開這台 Mac。完整說明請見<a href="privacy.html">隱私權政策</a>。</p> </div>
+</article>
+
+<!-- ===================== 日本語 ===================== -->
+<article lang="ja">
+  <p class="lead">うまく動かない、あるいは欲しい機能がある。そんなときはメールをください。ShotZen は一人で作っていて、いただいたメールはすべて読んでいます。</p> <h2>お問い合わせ</h2><hr class="rule"> <div class="card"> <p class="mail"><a href="mailto:songlaoshi666@gmail.com">songlaoshi666@gmail.com</a></p> <p>通常 2 日以内に返信します。不具合のご報告では、macOS のバージョンと Macのチップを書き添えていただけると、やり取りが一往復減ります。</p> </div> <h2>よくある質問</h2><hr class="rule"> <div class="card"> <h3>macOS が「画面収録」の許可を求めます。正常ですか？</h3> <p>正常です。macOS はすべてのスクリーンショットツールにこれを求めます。許可がなければ、システムは白紙の画像を返すだけです。<span class="path">システム設定 › プライバシーとセキュリティ › 画面収録</span>でオンにし、ShotZen を再起動してください。macOS はこの許可を起動時にしか読まないため、再起動が必要です。</p> </div> <div class="card"> <h3>Dock にアイコンがありません。アプリはどこですか？</h3> <p>メニューバーにあります。これは意図した設計です。アイコンをクリックすると取り込みコマンド、設定、使いかたが開きます。デフォルトのショートカットは<kbd>⇧⌘A</kbd>（範囲）、<kbd>⇧⌘W</kbd>（ウインドウ）、<kbd>⇧⌘F</kbd>（全画面）。<span class="path">設定 › ショートカット</span>で変更できます。</p> </div> <div class="card"> <h3>取り込んだ画像はどこへ保存されますか？</h3> <p>クリップボードへ。さらにオンにすれば、選んだフォルダにも保存されます。どちらも<span class="path">設定 › 保存</span>にあります。macOS の仕様上、フォルダは一度ご自身で選ぶ必要があります。以降は確認なしにそこへ保存します。</p> </div> <div class="card"> <h3>画面に収まらない長いページを取り込むには？</h3> <p>メニューバーのアイコンから<span class="path">スクロール取り込み</span>を選び、範囲を囲んでから手でスクロールします。上下どちらでも構いません。ShotZen はスクロールに合わせて繋ぎ、通過済みの部分を重複させず、追いつけない速さのときははっきり知らせます。終わったら<span class="path">完了</span>をクリックしてください。</p> </div> <div class="card"> <h3>取り込んだ画像を作業の上に置いておけますか？</h3> <p>はい、<span class="path">画面にピン留め</span>で。自由に動かせ、スクロールで拡大縮小、<kbd>Option</kbd> を押しながらスクロールすると不透明度が下がり、なぞれる参照レイヤーになります。邪魔なときは<span class="path">クリックを透過</span>をオンに。メニューバーの<span class="path">ピンを再びクリック可能にする</span>で戻せます。</p> </div> <div class="card"> <h3>表示言語を変えるには？</h3> <p><span class="path">設定 › 一般 › 言語</span>。English、简体中文、繁體中文、日本語、Deutsch、Français から選べます。再起動後に反映されます。</p> </div> <div class="card"> <h3>アンインストールの方法は？</h3> <p>ゴミ箱にドラッグしてください。<span class="path">ログイン時に起動</span>をオンにしていた場合は、<span class="path">システム設定 › 一般 › ログイン項目</span>に残った項目も削除してください。</p> </div> <h2>動作環境</h2><hr class="rule"> <div class="card"> <p>macOS 14 以降、Apple シリコンおよび Intel。必要な許可は「画面収録」だけです。</p> </div> <h2>プライバシー</h2><hr class="rule"> <div class="card"> <p>ShotZen にはアカウントも解析もなく、ネットワーク機能そのものがありません。取り込んだ画像がこの Mac を出ることはありません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p> </div>
+</article>
+
+<!-- ===================== Deutsch ===================== -->
+<article lang="de">
+  <p class="lead">Etwas funktioniert nicht, oder Ihnen fehlt eine Funktion?
+  Schreiben Sie mir — ShotZen wird von einer Person entwickelt, und jede
+  Nachricht wird gelesen.</p>
+
+  <h2>Kontakt</h2><hr class="rule">
+  <div class="card">
+    <p class="mail"><a href="mailto:songlaoshi666@gmail.com">songlaoshi666@gmail.com</a></p>
+    <p>Antwort in der Regel innerhalb von zwei Tagen. Bei Fehlerberichten
+    sparen Ihre macOS-Version und der Chip Ihres Macs eine Rückfrage.</p>
+  </div>
+
+  <h2>Häufige Fragen</h2><hr class="rule">
+
+  <div class="card">
+    <h3>macOS verlangt die Berechtigung „Bildschirmaufnahme“. Ist das normal?</h3>
+    <p>Ja. macOS verlangt sie von jedem Bildschirmfoto-Programm — ohne sie gibt
+    das System nur ein leeres Bild zurück. Aktivieren Sie sie unter
+    <span class="path">Systemeinstellungen › Datenschutz &amp; Sicherheit ›
+    Bildschirmaufnahme</span> und starten Sie ShotZen neu. macOS liest diese
+    Berechtigung nur beim Start einer App — daher der Neustart.</p>
+  </div>
+
+  <div class="card">
+    <h3>Im Dock ist kein Symbol. Wo ist die App?</h3>
+    <p>In der Menüleiste, und das mit Absicht. Ein Klick auf das Symbol zeigt
+    die Aufnahmebefehle, die Einstellungen und die Einführung. Die
+    Standard-Kurzbefehle sind <kbd>⇧⌘A</kbd> für einen Bereich,
+    <kbd>⇧⌘W</kbd> für ein Fenster und <kbd>⇧⌘F</kbd> für den ganzen
+    Bildschirm; ändern lassen sie sich unter
+    <span class="path">Einstellungen › Kurzbefehle</span>.</p>
+  </div>
+
+  <div class="card">
+    <h3>Wo landen meine Aufnahmen?</h3>
+    <p>In der Zwischenablage — und, wenn Sie es einschalten, zusätzlich in einem
+    Ordner Ihrer Wahl. Beides steht unter <span class="path">Einstellungen ›
+    Sichern</span>. macOS verlangt, dass Sie diesen Ordner einmal selbst
+    auswählen; danach sichert ShotZen dorthin, ohne erneut zu fragen.</p>
+  </div>
+
+  <div class="card">
+    <h3>Wie nehme ich eine Seite auf, die höher ist als der Bildschirm?</h3>
+    <p>Wählen Sie <span class="path">Scrollende Aufnahme</span> im Menüleisten-
+    symbol, umreißen Sie den Bereich und scrollen Sie dann von Hand — in beide
+    Richtungen. ShotZen fügt laufend zusammen, überspringt bereits Erfasstes und
+    sagt es deutlich, wenn Sie schneller scrollen, als es folgen kann. Am Ende
+    auf <span class="path">Abschließen</span> klicken.</p>
+  </div>
+
+  <div class="card">
+    <h3>Kann eine Aufnahme über meiner Arbeit schweben bleiben?</h3>
+    <p>Ja — <span class="path">Auf dem Bildschirm anheften</span>. Frei
+    verschiebbar, Scrollen zoomt, und mit gedrückter <kbd>Wahltaste</kbd> wird
+    sie beim Scrollen transparenter, bis sie eine Referenzebene zum Nachzeichnen
+    ist. Steht sie im Weg, aktivieren Sie <span class="path">Klicks
+    durchlassen</span>; <span class="path">Angeheftete wieder anklickbar
+    machen</span> in der Menüleiste hebt das auf.</p>
+  </div>
+
+  <div class="card">
+    <h3>Wie ändere ich die Sprache?</h3>
+    <p><span class="path">Einstellungen › Allgemein › Sprache</span>. Verfügbar
+    sind English, 简体中文, 繁體中文, 日本語, Deutsch und Français. Die Änderung
+    wirkt nach einem Neustart.</p>
+  </div>
+
+  <div class="card">
+    <h3>Wie deinstalliere ich ShotZen?</h3>
+    <p>In den Papierkorb ziehen. Hatten Sie <span class="path">Beim Anmelden
+    öffnen</span> aktiviert, entfernen Sie zusätzlich den verbliebenen Eintrag
+    unter <span class="path">Systemeinstellungen › Allgemein ›
+    Anmeldeobjekte</span>.</p>
+  </div>
+
+  <h2>Systemvoraussetzungen</h2><hr class="rule">
+  <div class="card">
+    <p>macOS 14 oder neuer, auf Apple Silicon oder Intel. Nötig ist allein die
+    Berechtigung zur Bildschirmaufnahme.</p>
+  </div>
+
+  <h2>Datenschutz</h2><hr class="rule">
+  <div class="card">
+    <p>ShotZen hat kein Benutzerkonto, keine Analyse und überhaupt keinen
+    Netzwerkzugriff. Ihre Aufnahmen verlassen Ihren Mac nicht. Die vollständige
+    Erklärung steht in der <a href="privacy.html">Datenschutzerklärung</a>.</p>
+  </div>
+</article>
+
+<!-- ===================== Français ===================== -->
+<article lang="fr">
+  <p class="lead">Quelque chose ne fonctionne pas, ou il vous manque une
+  fonction ? Écrivez-moi — ShotZen est développé par une seule personne, et
+  chaque message est lu.</p>
+
+  <h2>Contact</h2><hr class="rule">
+  <div class="card">
+    <p class="mail"><a href="mailto:songlaoshi666@gmail.com">songlaoshi666@gmail.com</a></p>
+    <p>Réponse en général sous deux jours. Pour signaler un problème, précisez
+    votre version de macOS et la puce de votre Mac : cela évite un aller-retour.</p>
+  </div>
+
+  <h2>Questions fréquentes</h2><hr class="rule">
+
+  <div class="card">
+    <h3>macOS demande l'autorisation « Enregistrement de l'écran ». Est-ce normal ?</h3>
+    <p>Oui. macOS l'exige de tout outil de capture — sans elle, le système ne
+    renvoie qu'une image vide. Activez-la dans <span class="path">Réglages
+    Système › Confidentialité et sécurité › Enregistrement de l'écran</span>,
+    puis relancez ShotZen. macOS ne lit cette autorisation qu'au lancement d'une
+    app, d'où le redémarrage.</p>
+  </div>
+
+  <div class="card">
+    <h3>Aucune icône dans le Dock. Où est l'app ?</h3>
+    <p>Dans la barre des menus, à dessein. Un clic sur son icône donne accès aux
+    commandes de capture, aux réglages et au guide. Raccourcis par défaut :
+    <kbd>⇧⌘A</kbd> pour une zone, <kbd>⇧⌘W</kbd> pour une fenêtre et
+    <kbd>⇧⌘F</kbd> pour tout l'écran ; modifiables dans
+    <span class="path">Réglages › Raccourcis</span>.</p>
+  </div>
+
+  <div class="card">
+    <h3>Où vont mes captures ?</h3>
+    <p>Dans le presse-papiers et, si vous l'activez, dans un dossier de votre
+    choix. Les deux réglages sont dans <span class="path">Réglages ›
+    Enregistrement</span>. macOS exige que vous choisissiez ce dossier vous-même
+    une fois ; ensuite ShotZen y enregistre sans plus rien demander.</p>
+  </div>
+
+  <div class="card">
+    <h3>Comment capturer une page plus haute que l'écran ?</h3>
+    <p>Choisissez <span class="path">Capture avec défilement</span> depuis
+    l'icône de la barre des menus, délimitez la zone, puis faites défiler à la
+    main — dans un sens ou dans l'autre. ShotZen assemble au fur et à mesure,
+    ignore ce qui a déjà été parcouru et vous prévient clairement si vous
+    défilez plus vite qu'il ne peut suivre. Cliquez sur
+    <span class="path">Terminer</span> une fois arrivé au bout.</p>
+  </div>
+
+  <div class="card">
+    <h3>Puis-je garder une capture au-dessus de mon travail ?</h3>
+    <p>Oui — <span class="path">Épingler à l'écran</span>. Déplacez-la où vous
+    voulez, faites défiler pour zoomer, ou maintenez <kbd>Option</kbd> en
+    faisant défiler pour l'estomper en calque de référence à décalquer. Si elle
+    gêne, activez <span class="path">Laisser passer les clics</span> ;
+    <span class="path">Rendre les épingles cliquables</span> dans la barre des
+    menus annule cela.</p>
+  </div>
+
+  <div class="card">
+    <h3>Comment changer la langue ?</h3>
+    <p><span class="path">Réglages › Général › Langue</span>. English, 简体中文,
+    繁體中文, 日本語, Deutsch et Français sont proposés. Le changement prend effet
+    après un redémarrage.</p>
+  </div>
+
+  <div class="card">
+    <h3>Comment désinstaller ShotZen ?</h3>
+    <p>Glissez-le vers la corbeille. Si vous aviez activé <span class="path">
+    Ouvrir à la session</span>, supprimez aussi l'entrée résiduelle dans
+    <span class="path">Réglages Système › Général › Ouverture</span>.</p>
+  </div>
+
+  <h2>Configuration requise</h2><hr class="rule">
+  <div class="card">
+    <p>macOS 14 ou ultérieur, sur Apple silicon comme sur Intel. Seule
+    l'autorisation d'enregistrement de l'écran est nécessaire.</p>
+  </div>
+
+  <h2>Confidentialité</h2><hr class="rule">
+  <div class="card">
+    <p>ShotZen n'a ni compte, ni statistiques, ni le moindre accès réseau. Vos
+    captures ne quittent pas votre Mac. La déclaration complète se trouve dans
+    la <a href="privacy.html">politique de confidentialité</a>.</p>
+  </div>
+</article>
+
+</main>
+
+<footer>
+  <p>ShotZen · <a href="privacy.html">Privacy</a> · © 2026 Song Li</p>
+</footer>
+
+</div>
+<script src="shotzen.js"></script>
+</body>
+</html>
