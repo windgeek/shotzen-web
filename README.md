@@ -1,32 +1,47 @@
 # ShotZen — support and privacy pages
 
-The two pages App Store Connect requires for [ShotZen](https://apps.apple.com/app/shotzen),
-a quiet screenshot tool for macOS.
+Official support and privacy pages for ShotZen, the native macOS screenshot,
+region-recording, scrolling-capture, annotation, and floating-reference utility.
 
-| Page | File | Used for |
+| Page | GitHub Pages URL | App Store Connect field |
 |---|---|---|
-| Support | `index.html` | App Store Connect → Support URL |
-| Privacy Policy | `privacy.html` | App Store Connect → Privacy Policy URL |
+| Support | https://windgeek.github.io/shotzen-web/ | Support URL |
+| Privacy | https://windgeek.github.io/shotzen-web/privacy.html | Privacy Policy URL |
 
-Both are static, dependency-free, and hosted with GitHub Pages.
+GitHub Pages publishes the repository root from `main`. Both existing URLs remain
+valid. The site is static and has no runtime dependencies, analytics, external
+fonts, or remote translation requests.
 
-## Six languages, two URLs
+## Nine languages
 
-The app ships in English, 简体中文, 繁體中文, 日本語, Deutsch and Français. Rather
-than six pages per document, every translation lives in the same file inside its
-own `<article lang="…">`, and `shotzen.js` reveals one of them. The choice order
-is `?lang=` → last choice in `localStorage` → the browser's own preference →
-English.
+English (`en`), 简体中文 (`zh-Hans`), 繁體中文 (`zh-Hant`), 日本語 (`ja`),
+한국어 (`ko`), Deutsch (`de`), Français (`fr`), Español (`es`), and
+Português (Brasil) (`pt-BR`) match ShotZen's app catalogs.
 
-That keeps App Store Connect down to one Support URL and one Privacy Policy URL
-regardless of how many localisations the app adds.
+Every translated document is embedded in its HTML page. `shotzen.js` selects
+`?lang=` first, then the saved browser choice, browser languages, and English.
+Regional language tags are normalized, including `zh-TW`, `ko-KR`, `es-ES`, and
+`pt-BR`. Portuguese preferences use the available Brazilian Portuguese locale.
+The title, description, header, language control, and footer are localized.
+Switching updates the URL, and links between documents preserve the language
+without depending on browser storage. With JavaScript disabled, all translations
+remain readable; with scripts enabled, only the selected article is exposed.
 
-## Editing
+## Editing and verification
 
-`shotzen.css` holds the palette, taken from the app's `Theme/ZenTheme.swift` so
-the pages and the app stay one object seen twice.
+1. Edit `content/locales.json`. Each locale has the same 11 support questions and
+   8 privacy sections. Copy was reviewed against ShotZen 1.3.1 source, entitlements,
+   privacy manifest, and store metadata on 6 October 2026.
+2. Run `python3 scripts/build.py` to regenerate `index.html` and `privacy.html`.
+3. Run `python3 scripts/verify.py` for content, HTML, and language coverage checks.
+4. Preview with `python3 -m http.server 8765 --bind 127.0.0.1` and check both
+   documents at desktop and mobile widths. Exercise all language controls,
+   cross-page links, browser preferences, blocked storage, and JavaScript disabled.
+5. Commit generated HTML together with its source. Push to `main` to publish,
+   then verify the Pages build and both public URLs.
 
-One thing to watch when editing the CJK translations: a newline in the HTML
-source becomes a space in the rendered text. Between two Latin words that is
-what you want; between two Han characters it is a visible gap mid-sentence. Keep
-each CJK paragraph on a single source line.
+`templates/page.html` contains the original ShotZen mark and shared structure.
+`shotzen.css` retains the app's violet, gold, and frosted-panel visual language.
+The privacy policy covers local temporary recordings, clipboard GIF caching,
+user-selected destinations, support email, and GitHub Pages hosting separately.
+CJK paragraphs are generated on single source lines to avoid inserted spaces.

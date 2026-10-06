@@ -182,3 +182,15 @@ footer a:hover { color: var(--subtext); }
   h1 { font-size: 28px; }
   .card { padding: 18px 18px; }
 }
+
+/* Nine language choices remain accessible on narrow screens. */
+.langs button { min-height: 44px; }
+.langs button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+[hidden] { display: none !important; }
+.card p { overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) {
+  .langs button { transition: none; }
+}
