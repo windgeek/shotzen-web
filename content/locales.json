@@ -22,7 +22,7 @@
       ],
       [
         "How do I record a region with sound?",
-        "Press ⇧⌘R, draw the region, and choose Start Recording. Stop when finished; recording stops automatically at 30 seconds. System sound is included, with no microphone access. Choose Copy GIF for a lightweight, silent animation, or Save File for an MP4 with system sound or a higher-quality silent GIF."
+        "Press ⇧⌘R, draw the region, and choose Start Recording. Stop whenever you’re done; there’s no time limit. System sound is included, with no microphone access. Choose Copy GIF for a lightweight, silent animation, or Save File for the full MP4 with system sound or a higher-quality silent GIF. GIFs keep up to the first 30 seconds."
       ],
       [
         "Why is a pasted GIF silent or shown as a still image?",
@@ -75,7 +75,7 @@
       ],
       [
         "Screen and system audio permission",
-        "ScreenCaptureKit is used for screenshots, scrolling capture, and selected-region recording. macOS screen-capture permission is required; its name varies by macOS version. Capturing starts only after your shortcut or menu command, including a delay you request. Region recording includes system sound and stops after 30 seconds. ShotZen does not request or record microphone audio, and does not monitor your screen when idle. To let you click a window, and to recognise apps that keep their windows out of captures, ShotZen reads the list of open windows — their position, size, and owning app — when you start a capture. During a scrolling capture it notices that you are scrolling, so it knows when to take the next frame; it does not see what you type or where you click. None of this is stored or sent anywhere."
+        "ScreenCaptureKit is used for screenshots, scrolling capture, and selected-region recording. macOS screen-capture permission is required; its name varies by macOS version. Capturing starts only after your shortcut or menu command, including a delay you request. Region recording includes system sound and runs until you stop it. ShotZen does not request or record microphone audio, and does not monitor your screen when idle. To let you click a window, and to recognise apps that keep their windows out of captures, ShotZen reads the list of open windows — their position, size, and owning app — when you start a capture. During a scrolling capture it notices that you are scrolling, so it knows when to take the next frame; it does not see what you type or where you click. None of this is stored or sent anywhere."
       ],
       [
         "Local processing and temporary files",
@@ -121,7 +121,7 @@
       ],
       [
         "Record a region",
-        "⇧⌘R records a selected area with the sound your Mac is playing, for up to 30 seconds. Save it as a video, export a high-quality GIF, or copy a lightweight GIF ready to paste into a chat."
+        "⇧⌘R records a selected area with the sound your Mac is playing, for as long as you need. Save the full video, export a high-quality GIF, or copy a lightweight GIF ready to paste into a chat. GIFs keep up to 30 seconds."
       ],
       [
         "Pin to screen",
@@ -152,7 +152,7 @@
       ],
       [
         "怎么录下选区和系统声音？",
-        "按 ⇧⌘R，框选区域，点击开始录制。完成后停止，最长 30 秒会自动结束。录屏收录系统播放的声音，不使用麦克风。选择「复制 GIF」可获得适合聊天的轻量静音动图；选择保存文件，可导出带系统声音的 MP4 或画质更高的静音 GIF。"
+        "按 ⇧⌘R，框选区域，点击开始录制。录多久都可以，完成后点击停止。录屏收录系统播放的声音，不使用麦克风。选择「复制 GIF」可获得适合聊天的轻量静音动图；选择保存文件，可导出带系统声音的完整 MP4，或画质更高的静音 GIF。GIF 最长保留前 30 秒。"
       ],
       [
         "为什么 GIF 没有声音，粘贴后也可能不动？",
@@ -205,7 +205,7 @@
       ],
       [
         "屏幕与系统音频权限",
-        "ShotZen 使用 ScreenCaptureKit 完成截图、滚动长截图和选区录屏，需要 macOS 的屏幕捕捉权限，具体名称随系统版本而异。捕捉只在你按下快捷键或选择菜单命令后开始，也包括你主动选择的延时截图。选区录屏收录系统声音，并在 30 秒后自动停止。ShotZen 不请求或录制麦克风音频，空闲时不监视屏幕。为了让你可以点击窗口截图，并识别那些禁止截屏的应用，ShotZen 会在你开始截图时读取当前打开的窗口列表 —— 位置、大小和所属应用。长截图期间，它会感知你正在滚动，以便知道何时截取下一帧；它看不到你输入的内容，也不知道你点了哪里。这些信息都不会被保存或发送到任何地方。"
+        "ShotZen 使用 ScreenCaptureKit 完成截图、滚动长截图和选区录屏，需要 macOS 的屏幕捕捉权限，具体名称随系统版本而异。捕捉只在你按下快捷键或选择菜单命令后开始，也包括你主动选择的延时截图。选区录屏收录系统声音，直到你点击停止才会结束。ShotZen 不请求或录制麦克风音频，空闲时不监视屏幕。为了让你可以点击窗口截图，并识别那些禁止截屏的应用，ShotZen 会在你开始截图时读取当前打开的窗口列表 —— 位置、大小和所属应用。长截图期间，它会感知你正在滚动，以便知道何时截取下一帧；它看不到你输入的内容，也不知道你点了哪里。这些信息都不会被保存或发送到任何地方。"
       ],
       [
         "本地处理与临时文件",
@@ -251,7 +251,7 @@
       ],
       [
         "录制选区",
-        "⇧⌘R 录制选定区域，同时录下 Mac 正在播放的声音，最长 30 秒。可以保存为视频、导出高质量 GIF，或者复制一份适合发到聊天里的轻量 GIF。"
+        "⇧⌘R 录制选定区域，同时录下 Mac 正在播放的声音，不限时长。可以保存完整视频、导出高质量 GIF，或者复制一份适合发到聊天里的轻量 GIF；GIF 最长 30 秒。"
       ],
       [
         "钉在屏幕上",
@@ -282,7 +282,7 @@
       ],
       [
         "如何錄下選取範圍與系統聲音？",
-        "按 ⇧⌘R、框選範圍，然後開始錄製。完成後停止，最長 30 秒會自動結束。錄影包含系統播放的聲音，不使用麥克風。選擇複製 GIF 可取得適合聊天的輕量無聲動畫；儲存檔案可匯出帶系統聲音的 MP4 或畫質較高的無聲 GIF。"
+        "按 ⇧⌘R、框選範圍，然後開始錄製。錄多久都可以，完成後點按停止。錄影包含系統播放的聲音，不使用麥克風。選擇複製 GIF 可取得適合聊天的輕量無聲動畫；儲存檔案可匯出帶系統聲音的完整 MP4，或畫質較高的無聲 GIF。GIF 最長保留前 30 秒。"
       ],
       [
         "為什麼 GIF 沒有聲音，貼上後也可能不動？",
@@ -335,7 +335,7 @@
       ],
       [
         "螢幕與系統音訊權限",
-        "ShotZen 使用 ScreenCaptureKit 完成擷取、捲動長截圖及選取範圍錄影，需要 macOS 螢幕擷取權限，名稱依系統版本而異。擷取只在你按下快速鍵或選擇選單指令後開始，也包括你主動選擇的延遲擷取。選取範圍錄影包含系統聲音，並在 30 秒後自動停止。ShotZen 不要求或錄製麥克風音訊，閒置時不監看螢幕。為了讓你可以點按視窗擷取，並辨識那些禁止截圖的 App，ShotZen 會在你開始擷取時讀取目前開啟的視窗清單 —— 位置、大小與所屬 App。長截圖期間，它會察覺你正在捲動，以便知道何時擷取下一張；它看不到你輸入的內容，也不知道你點了哪裡。這些資訊都不會被儲存或傳送到任何地方。"
+        "ShotZen 使用 ScreenCaptureKit 完成擷取、捲動長截圖及選取範圍錄影，需要 macOS 螢幕擷取權限，名稱依系統版本而異。擷取只在你按下快速鍵或選擇選單指令後開始，也包括你主動選擇的延遲擷取。選取範圍錄影包含系統聲音，直到你點按停止才會結束。ShotZen 不要求或錄製麥克風音訊，閒置時不監看螢幕。為了讓你可以點按視窗擷取，並辨識那些禁止截圖的 App，ShotZen 會在你開始擷取時讀取目前開啟的視窗清單 —— 位置、大小與所屬 App。長截圖期間，它會察覺你正在捲動，以便知道何時擷取下一張；它看不到你輸入的內容，也不知道你點了哪裡。這些資訊都不會被儲存或傳送到任何地方。"
       ],
       [
         "本機處理與暫存檔案",
@@ -381,7 +381,7 @@
       ],
       [
         "錄製選取範圍",
-        "⇧⌘R 錄製選取範圍，同時錄下 Mac 正在播放的聲音，最長 30 秒。可以儲存為影片、輸出高品質 GIF，或拷貝一份適合貼到聊天中的輕量 GIF。"
+        "⇧⌘R 錄製選取範圍，同時錄下 Mac 正在播放的聲音，不限時長。可以儲存完整影片、輸出高品質 GIF，或拷貝一份適合貼到聊天中的輕量 GIF；GIF 最長 30 秒。"
       ],
       [
         "釘在螢幕上",
@@ -412,7 +412,7 @@
       ],
       [
         "範囲とシステム音声を録画するには？",
-        "⇧⌘R を押して範囲を囲み、録画を開始します。完了したら停止してください。30 秒で自動停止します。システム音声を収録し、マイクは使いません。GIF をコピーするとチャット向けの軽量な無音アニメーションを作成できます。ファイル保存では、システム音声付き MP4 または高画質の無音 GIF を選べます。"
+        "⇧⌘R を押して範囲を囲み、録画を開始します。録画時間に制限はありません。完了したら停止してください。システム音声を収録し、マイクは使いません。GIF をコピーするとチャット向けの軽量な無音アニメーションを作成できます。ファイル保存では、システム音声付きの MP4（録画全体）または高画質の無音 GIF を選べます。GIF には最初の最長 30 秒が含まれます。"
       ],
       [
         "GIF に音がなく、貼り付けると静止画になるのはなぜ？",
@@ -465,7 +465,7 @@
       ],
       [
         "画面とシステム音声の許可",
-        "ScreenCaptureKit で撮影、スクロール撮影、範囲録画を行います。macOS の画面収録の許可が必要で、名称はバージョンによって異なります。撮影はユーザーのショートカットやメニュー操作で開始され、指定した遅延撮影も含みます。範囲録画はシステム音声を含み、30 秒で停止します。マイク音声を要求・録音せず、待機中に画面を監視しません。ウインドウをクリックして取り込めるように、また取り込みを禁止しているアプリを見分けるために、ShotZen は取り込みを始めたときに開いているウインドウの一覧（位置、大きさ、所属するアプリ）を読み取ります。スクロール撮影中は、次のフレームを撮るタイミングを知るためにスクロールしていることを検知します。入力内容やクリックした場所はわかりません。これらはどこにも保存も送信もされません。"
+        "ScreenCaptureKit で撮影、スクロール撮影、範囲録画を行います。macOS の画面収録の許可が必要で、名称はバージョンによって異なります。撮影はユーザーのショートカットやメニュー操作で開始され、指定した遅延撮影も含みます。範囲録画はシステム音声を含み、停止するまで続きます。マイク音声を要求・録音せず、待機中に画面を監視しません。ウインドウをクリックして取り込めるように、また取り込みを禁止しているアプリを見分けるために、ShotZen は取り込みを始めたときに開いているウインドウの一覧（位置、大きさ、所属するアプリ）を読み取ります。スクロール撮影中は、次のフレームを撮るタイミングを知るためにスクロールしていることを検知します。入力内容やクリックした場所はわかりません。これらはどこにも保存も送信もされません。"
       ],
       [
         "ローカル処理と一時ファイル",
@@ -511,7 +511,7 @@
       ],
       [
         "範囲を録画",
-        "⇧⌘R で選択した範囲を、Mac で再生中の音声とともに最長30秒録画します。ビデオとして保存、高画質 GIF として書き出し、またはチャットに貼れる軽量 GIF としてコピーできます。"
+        "⇧⌘R で選択した範囲を、Mac で再生中の音声とともに時間制限なく録画します。ビデオ全体を保存、高画質 GIF として書き出し、またはチャットに貼れる軽量 GIF としてコピーできます。GIF は最長30秒です。"
       ],
       [
         "画面にピン留め",
@@ -542,7 +542,7 @@
       ],
       [
         "영역과 시스템 소리를 녹화하려면 어떻게 하나요?",
-        "⇧⌘R을 누르고 영역을 지정한 뒤 녹화를 시작하세요. 마치면 중지하거나, 30초가 지나면 자동으로 종료됩니다. 시스템 소리가 포함되며 마이크는 사용하지 않습니다. GIF 복사는 채팅에 적합한 작은 무음 애니메이션을 만듭니다. 파일 저장에서는 시스템 소리가 있는 MP4 또는 더 높은 화질의 무음 GIF를 선택할 수 있습니다."
+        "⇧⌘R을 누르고 영역을 지정한 뒤 녹화를 시작하세요. 녹화 시간에 제한이 없으니 마치면 중지하세요. 시스템 소리가 포함되며 마이크는 사용하지 않습니다. GIF 복사는 채팅에 적합한 작은 무음 애니메이션을 만듭니다. 파일 저장에서는 시스템 소리가 있는 전체 MP4 또는 더 높은 화질의 무음 GIF를 선택할 수 있습니다. GIF에는 처음 최대 30초가 담깁니다."
       ],
       [
         "GIF에 소리가 없거나 붙여넣으면 정지 이미지로 보이는 이유는?",
@@ -595,7 +595,7 @@
       ],
       [
         "화면 및 시스템 오디오 권한",
-        "ScreenCaptureKit으로 스크린샷, 스크롤 캡처, 영역 녹화를 수행합니다. macOS 화면 캡처 권한이 필요하며 이름은 버전에 따라 다릅니다. 사용자가 단축키나 메뉴 명령을 실행했을 때만 시작하며 직접 선택한 지연 캡처도 포함됩니다. 영역 녹화는 시스템 소리를 포함하고 30초 후 중지됩니다. 마이크 오디오를 요청하거나 녹음하지 않으며 대기 중 화면을 감시하지 않습니다. 윈도우를 클릭해 캡처할 수 있도록, 그리고 캡처를 차단하는 앱을 알아보기 위해 ShotZen은 캡처를 시작할 때 열려 있는 윈도우 목록(위치, 크기, 소속 앱)을 읽습니다. 스크롤 캡처 중에는 다음 프레임을 찍을 시점을 알기 위해 스크롤하고 있다는 사실만 감지하며, 입력한 내용이나 클릭한 위치는 알 수 없습니다. 이 정보는 어디에도 저장되거나 전송되지 않습니다."
+        "ScreenCaptureKit으로 스크린샷, 스크롤 캡처, 영역 녹화를 수행합니다. macOS 화면 캡처 권한이 필요하며 이름은 버전에 따라 다릅니다. 사용자가 단축키나 메뉴 명령을 실행했을 때만 시작하며 직접 선택한 지연 캡처도 포함됩니다. 영역 녹화는 시스템 소리를 포함하며 사용자가 중지할 때까지 계속됩니다. 마이크 오디오를 요청하거나 녹음하지 않으며 대기 중 화면을 감시하지 않습니다. 윈도우를 클릭해 캡처할 수 있도록, 그리고 캡처를 차단하는 앱을 알아보기 위해 ShotZen은 캡처를 시작할 때 열려 있는 윈도우 목록(위치, 크기, 소속 앱)을 읽습니다. 스크롤 캡처 중에는 다음 프레임을 찍을 시점을 알기 위해 스크롤하고 있다는 사실만 감지하며, 입력한 내용이나 클릭한 위치는 알 수 없습니다. 이 정보는 어디에도 저장되거나 전송되지 않습니다."
       ],
       [
         "로컬 처리와 임시 파일",
@@ -641,7 +641,7 @@
       ],
       [
         "영역 녹화",
-        "⇧⌘R로 선택한 영역을 Mac에서 재생 중인 소리와 함께 최대 30초까지 녹화합니다. 비디오로 저장하거나 고화질 GIF로 내보내거나, 채팅에 바로 붙일 수 있는 가벼운 GIF로 복사할 수 있습니다."
+        "⇧⌘R로 선택한 영역을 Mac에서 재생 중인 소리와 함께 시간 제한 없이 녹화합니다. 전체 비디오를 저장하거나 고화질 GIF로 내보내거나, 채팅에 바로 붙일 수 있는 가벼운 GIF로 복사할 수 있습니다. GIF는 최대 30초입니다."
       ],
       [
         "화면에 고정",
@@ -672,7 +672,7 @@
       ],
       [
         "Wie zeichne ich einen Bereich mit Ton auf?",
-        "Drücken Sie ⇧⌘R, ziehen Sie den Bereich auf und starten Sie die Aufnahme. Stoppen Sie sie anschließend; nach 30 Sekunden endet sie automatisch. Systemaudio wird mit aufgenommen, das Mikrofon wird nicht verwendet. GIF kopieren erstellt eine kleine, stumme Animation für Chats. Beim Speichern können Sie MP4 mit Systemaudio oder ein hochwertigeres stummes GIF wählen."
+        "Drücken Sie ⇧⌘R, ziehen Sie den Bereich auf und starten Sie die Aufnahme. Stoppen Sie sie, wenn Sie fertig sind – es gibt kein Zeitlimit. Systemaudio wird mit aufgenommen, das Mikrofon wird nicht verwendet. GIF kopieren erstellt eine kleine, stumme Animation für Chats. Beim Speichern können Sie das vollständige MP4 mit Systemaudio oder ein hochwertigeres stummes GIF wählen. GIFs enthalten bis zu 30 Sekunden."
       ],
       [
         "Warum hat das GIF keinen Ton oder erscheint als Standbild?",
@@ -725,7 +725,7 @@
       ],
       [
         "Bildschirm- und Systemaudiozugriff",
-        "ScreenCaptureKit wird für Bildschirmfotos, Scroll-Aufnahmen und Bereichsvideos verwendet. Die macOS-Erlaubnis zur Bildschirmaufnahme ist erforderlich; ihr Name variiert je nach Version. Aufnahmen beginnen nur auf Ihren Kurzbefehl oder Menübefehl hin, einschließlich angeforderter Verzögerungen. Bereichsvideos enthalten Systemaudio und enden nach 30 Sekunden. ShotZen fordert kein Mikrofon an, nimmt es nicht auf und überwacht den Bildschirm nicht im Ruhezustand. Damit Sie ein Fenster anklicken können und um Apps zu erkennen, die ihre Fenster aus Aufnahmen heraushalten, liest ShotZen beim Start einer Aufnahme die Liste der geöffneten Fenster — Position, Größe und zugehörige App. Während einer Scroll-Aufnahme bemerkt es, dass Sie scrollen, um zu wissen, wann das nächste Bild fällig ist; was Sie tippen oder wohin Sie klicken, sieht es nicht. Nichts davon wird gespeichert oder irgendwohin gesendet."
+        "ScreenCaptureKit wird für Bildschirmfotos, Scroll-Aufnahmen und Bereichsvideos verwendet. Die macOS-Erlaubnis zur Bildschirmaufnahme ist erforderlich; ihr Name variiert je nach Version. Aufnahmen beginnen nur auf Ihren Kurzbefehl oder Menübefehl hin, einschließlich angeforderter Verzögerungen. Bereichsvideos enthalten Systemaudio und laufen, bis Sie sie stoppen. ShotZen fordert kein Mikrofon an, nimmt es nicht auf und überwacht den Bildschirm nicht im Ruhezustand. Damit Sie ein Fenster anklicken können und um Apps zu erkennen, die ihre Fenster aus Aufnahmen heraushalten, liest ShotZen beim Start einer Aufnahme die Liste der geöffneten Fenster — Position, Größe und zugehörige App. Während einer Scroll-Aufnahme bemerkt es, dass Sie scrollen, um zu wissen, wann das nächste Bild fällig ist; was Sie tippen oder wohin Sie klicken, sieht es nicht. Nichts davon wird gespeichert oder irgendwohin gesendet."
       ],
       [
         "Lokale Verarbeitung und temporäre Dateien",
@@ -771,7 +771,7 @@
       ],
       [
         "Bereich aufzeichnen",
-        "⇧⌘R zeichnet einen ausgewählten Bereich samt dem Ton auf, den Ihr Mac gerade abspielt – bis zu 30 Sekunden. Als Video sichern, als hochwertiges GIF exportieren oder als leichtes GIF für den Chat kopieren."
+        "⇧⌘R zeichnet einen ausgewählten Bereich samt dem Ton auf, den Ihr Mac gerade abspielt – ohne Zeitlimit. Als vollständiges Video sichern, als hochwertiges GIF exportieren oder als leichtes GIF für den Chat kopieren. GIFs umfassen bis zu 30 Sekunden."
       ],
       [
         "Auf dem Bildschirm anheften",
@@ -802,7 +802,7 @@
       ],
       [
         "Comment enregistrer une zone avec le son ?",
-        "Appuyez sur ⇧⌘R, délimitez la zone et lancez l’enregistrement. Arrêtez-le ensuite ; il s’arrête automatiquement après 30 secondes. Le son système est inclus, sans accès au microphone. Copier le GIF crée une animation légère et muette pour les messages. Enregistrer un fichier permet de choisir un MP4 avec le son système ou un GIF muet de meilleure qualité."
+        "Appuyez sur ⇧⌘R, délimitez la zone et lancez l’enregistrement. Arrêtez-le quand vous avez terminé : il n’y a pas de limite de durée. Le son système est inclus, sans accès au microphone. Copier le GIF crée une animation légère et muette pour les messages. Enregistrer un fichier permet de choisir le MP4 complet avec le son système ou un GIF muet de meilleure qualité. Les GIF durent 30 secondes maximum."
       ],
       [
         "Pourquoi le GIF est-il muet ou affiché comme une image fixe ?",
@@ -855,7 +855,7 @@
       ],
       [
         "Autorisation d’écran et d’audio système",
-        "ScreenCaptureKit sert aux captures, aux captures défilantes et à l’enregistrement d’une zone. L’autorisation macOS de capture d’écran est nécessaire ; son nom varie selon la version. La capture commence uniquement après votre raccourci ou commande, y compris une capture différée demandée. L’enregistrement d’une zone inclut le son système et s’arrête après 30 secondes. ShotZen ne demande ni n’enregistre le microphone et ne surveille pas l’écran au repos. Pour vous permettre de cliquer sur une fenêtre, et pour reconnaître les apps qui excluent leurs fenêtres des captures, ShotZen lit la liste des fenêtres ouvertes — position, taille et app propriétaire — lorsque vous lancez une capture. Pendant une capture défilante, il remarque que vous faites défiler afin de savoir quand prendre l’image suivante ; il ne voit ni ce que vous tapez ni où vous cliquez. Rien de tout cela n’est conservé ni envoyé où que ce soit."
+        "ScreenCaptureKit sert aux captures, aux captures défilantes et à l’enregistrement d’une zone. L’autorisation macOS de capture d’écran est nécessaire ; son nom varie selon la version. La capture commence uniquement après votre raccourci ou commande, y compris une capture différée demandée. L’enregistrement d’une zone inclut le son système et continue jusqu’à ce que vous l’arrêtiez. ShotZen ne demande ni n’enregistre le microphone et ne surveille pas l’écran au repos. Pour vous permettre de cliquer sur une fenêtre, et pour reconnaître les apps qui excluent leurs fenêtres des captures, ShotZen lit la liste des fenêtres ouvertes — position, taille et app propriétaire — lorsque vous lancez une capture. Pendant une capture défilante, il remarque que vous faites défiler afin de savoir quand prendre l’image suivante ; il ne voit ni ce que vous tapez ni où vous cliquez. Rien de tout cela n’est conservé ni envoyé où que ce soit."
       ],
       [
         "Traitement local et fichiers temporaires",
@@ -901,7 +901,7 @@
       ],
       [
         "Enregistrer une zone",
-        "⇧⌘R enregistre une zone choisie avec le son que joue votre Mac, jusqu’à 30 secondes. Enregistrez-la en vidéo, exportez un GIF de haute qualité, ou copiez un GIF léger prêt à coller dans une discussion."
+        "⇧⌘R enregistre une zone choisie avec le son que joue votre Mac, sans limite de durée. Enregistrez la vidéo complète, exportez un GIF de haute qualité, ou copiez un GIF léger prêt à coller dans une discussion. Les GIF durent 30 secondes maximum."
       ],
       [
         "Épingler à l’écran",
@@ -932,7 +932,7 @@
       ],
       [
         "¿Cómo grabo una zona con sonido?",
-        "Pulsa ⇧⌘R, delimita la zona e inicia la grabación. Detenla al terminar; se detiene automáticamente a los 30 segundos. Incluye el sonido del sistema y no utiliza el micrófono. Copiar GIF crea una animación ligera y sin sonido para chats. Guardar archivo permite elegir un MP4 con sonido o un GIF sin sonido de mayor calidad."
+        "Pulsa ⇧⌘R, delimita la zona e inicia la grabación. Detenla al terminar; no hay límite de tiempo. Incluye el sonido del sistema y no utiliza el micrófono. Copiar GIF crea una animación ligera y sin sonido para chats. Guardar archivo permite elegir el MP4 completo con sonido o un GIF sin sonido de mayor calidad. Los GIF duran hasta 30 segundos."
       ],
       [
         "¿Por qué el GIF no tiene sonido o aparece como imagen fija?",
@@ -985,7 +985,7 @@
       ],
       [
         "Permiso de pantalla y audio del sistema",
-        "ScreenCaptureKit se utiliza para capturas, capturas con desplazamiento y grabación de una zona. Se requiere permiso de captura de pantalla de macOS; su nombre varía según la versión. Las capturas solo empiezan tras tu atajo o comando, incluido el retardo que solicites. Las grabaciones incluyen el sonido del sistema y terminan a los 30 segundos. ShotZen no solicita ni graba el micrófono y no vigila la pantalla mientras está inactivo. Para que puedas hacer clic en una ventana, y para reconocer las apps que excluyen sus ventanas de las capturas, ShotZen lee la lista de ventanas abiertas —posición, tamaño y app a la que pertenecen— al iniciar una captura. Durante una captura con desplazamiento detecta que te estás desplazando para saber cuándo tomar el siguiente fotograma; no ve lo que escribes ni dónde haces clic. Nada de esto se guarda ni se envía a ningún sitio."
+        "ScreenCaptureKit se utiliza para capturas, capturas con desplazamiento y grabación de una zona. Se requiere permiso de captura de pantalla de macOS; su nombre varía según la versión. Las capturas solo empiezan tras tu atajo o comando, incluido el retardo que solicites. Las grabaciones incluyen el sonido del sistema y continúan hasta que las detienes. ShotZen no solicita ni graba el micrófono y no vigila la pantalla mientras está inactivo. Para que puedas hacer clic en una ventana, y para reconocer las apps que excluyen sus ventanas de las capturas, ShotZen lee la lista de ventanas abiertas —posición, tamaño y app a la que pertenecen— al iniciar una captura. Durante una captura con desplazamiento detecta que te estás desplazando para saber cuándo tomar el siguiente fotograma; no ve lo que escribes ni dónde haces clic. Nada de esto se guarda ni se envía a ningún sitio."
       ],
       [
         "Procesamiento local y archivos temporales",
@@ -1031,7 +1031,7 @@
       ],
       [
         "Grabar una zona",
-        "⇧⌘R graba la zona elegida junto con el sonido que reproduce tu Mac, hasta 30 segundos. Guárdala como vídeo, expórtala como GIF de alta calidad o copia un GIF ligero listo para pegar en un chat."
+        "⇧⌘R graba la zona elegida junto con el sonido que reproduce tu Mac, sin límite de tiempo. Guarda el vídeo completo, expórtala como GIF de alta calidad o copia un GIF ligero listo para pegar en un chat. Los GIF duran hasta 30 segundos."
       ],
       [
         "Fijar en la pantalla",
@@ -1062,7 +1062,7 @@
       ],
       [
         "Como gravo uma área com som?",
-        "Pressione ⇧⌘R, delimite a área e inicie a gravação. Pare ao terminar; ela para automaticamente após 30 segundos. Inclui o áudio do sistema e não usa o microfone. Copiar GIF cria uma animação leve e sem som para mensagens. Salvar Arquivo permite escolher um MP4 com áudio ou um GIF sem som de maior qualidade."
+        "Pressione ⇧⌘R, delimite a área e inicie a gravação. Pare quando terminar; não há limite de tempo. Inclui o áudio do sistema e não usa o microfone. Copiar GIF cria uma animação leve e sem som para mensagens. Salvar Arquivo permite escolher o MP4 completo com áudio ou um GIF sem som de maior qualidade. Os GIFs têm até 30 segundos."
       ],
       [
         "Por que o GIF não tem som ou aparece como imagem estática?",
@@ -1115,7 +1115,7 @@
       ],
       [
         "Permissão de tela e áudio do sistema",
-        "O ScreenCaptureKit é usado para capturas, capturas com rolagem e gravação de uma área. A permissão de captura de tela do macOS é necessária; o nome varia conforme a versão. A captura começa apenas após seu atalho ou comando, incluindo o atraso solicitado. A gravação inclui o áudio do sistema e termina após 30 segundos. O ShotZen não solicita nem grava o microfone e não monitora a tela quando está ocioso. Para que você possa clicar em uma janela, e para reconhecer apps que deixam suas janelas fora das capturas, o ShotZen lê a lista de janelas abertas — posição, tamanho e app a que pertencem — quando você inicia uma captura. Durante uma captura com rolagem, ele percebe que você está rolando para saber quando registrar o próximo quadro; não vê o que você digita nem onde clica. Nada disso é guardado ou enviado a lugar algum."
+        "O ScreenCaptureKit é usado para capturas, capturas com rolagem e gravação de uma área. A permissão de captura de tela do macOS é necessária; o nome varia conforme a versão. A captura começa apenas após seu atalho ou comando, incluindo o atraso solicitado. A gravação inclui o áudio do sistema e continua até você pará-la. O ShotZen não solicita nem grava o microfone e não monitora a tela quando está ocioso. Para que você possa clicar em uma janela, e para reconhecer apps que deixam suas janelas fora das capturas, o ShotZen lê a lista de janelas abertas — posição, tamanho e app a que pertencem — quando você inicia uma captura. Durante uma captura com rolagem, ele percebe que você está rolando para saber quando registrar o próximo quadro; não vê o que você digita nem onde clica. Nada disso é guardado ou enviado a lugar algum."
       ],
       [
         "Processamento local e arquivos temporários",
@@ -1161,7 +1161,7 @@
       ],
       [
         "Gravar uma área",
-        "⇧⌘R grava a área escolhida junto com o som que o Mac está reproduzindo, por até 30 segundos. Salve como vídeo, exporte um GIF de alta qualidade ou copie um GIF leve pronto para colar em uma conversa."
+        "⇧⌘R grava a área escolhida junto com o som que o Mac está reproduzindo, sem limite de tempo. Salve o vídeo completo, exporte um GIF de alta qualidade ou copie um GIF leve pronto para colar em uma conversa. Os GIFs têm até 30 segundos."
       ],
       [
         "Fixar na tela",
