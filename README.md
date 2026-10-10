@@ -5,7 +5,7 @@ region-recording, scrolling-capture, annotation, and floating-reference utility.
 
 | Page | GitHub Pages URL | App Store Connect field |
 |---|---|---|
-| Support | https://windgeek.github.io/shotzen-web/ | Support URL |
+| Product and support | https://windgeek.github.io/shotzen-web/ | Marketing URL and Support URL |
 | Privacy | https://windgeek.github.io/shotzen-web/privacy.html | Privacy Policy URL |
 
 GitHub Pages publishes the repository root from `main`. Both existing URLs remain
@@ -29,9 +29,10 @@ remain readable; with scripts enabled, only the selected article is exposed.
 
 ## Editing and verification
 
-1. Edit `content/locales.json`. Each locale has the same 11 support questions and
-   8 privacy sections. Copy was reviewed against ShotZen 1.3.1 source, entitlements,
-   privacy manifest, and store metadata on 6 October 2026.
+1. Edit `content/locales.json`. Each locale has the same product introduction,
+   5 features, 13 support questions and 8 privacy sections. Copy was reviewed
+   against ShotZen 1.3.2 source, entitlements, privacy manifest, and store
+   metadata on 10 October 2026.
 2. Run `python3 scripts/build.py` to regenerate `index.html` and `privacy.html`.
 3. Run `python3 scripts/verify.py` for content, HTML, and language coverage checks.
 4. Preview with `python3 -m http.server 8765 --bind 127.0.0.1` and check both

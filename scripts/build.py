@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LANGS = ['en', 'zh-Hans', 'zh-Hant', 'ja', 'ko', 'de', 'fr', 'es', 'pt-BR']
 EMAIL = 'songlaoshi666@gmail.com'
+STORE = 'https://apps.apple.com/app/id6798983115'
 GITHUB_POLICY = 'https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement'
 
 
@@ -45,7 +46,8 @@ def build():
         for lang in LANGS:
             text = data[lang]
             assert set(text) == reference_keys, f'{lang}: missing translation fields'
-            assert len(text['faqs']) == 11 and len(text['privacySections']) == 8
+            assert len(text['faqs']) == 13 and len(text['privacySections']) == 8
+            assert len(text['features']) == 5
             title = text['policy' if privacy else 'support']
             tagline = f"{title} · {text['date' if privacy else 'tagline']}"
             description = text['privacyIntro' if privacy else 'intro']
@@ -57,7 +59,17 @@ def build():
             }
             attrs = ' '.join(f'{key}="{esc(value)}"' for key, value in attributes.items())
             active = ' class="on"' if lang == 'en' else ''
-            content = [f'<article {attrs}{active}>', f'<p class="lead">{esc(description)}</p>']
+            content = [f'<article {attrs}{active}>']
+            if privacy:
+                content += [f'<p class="lead">{esc(description)}</p>']
+            else:
+                # The support page doubles as the product page App Store Connect's
+                # Marketing URL points at, so it opens with what ShotZen does.
+                content += [f'<p class="lead">{prose(text["productLead"])}</p>',
+                            f'<p class="store"><a class="store-link" href="{STORE}">{esc(text["storeLink"])}</a></p>',
+                            heading(text['featuresTitle'])]
+                for label, body in text['features']:
+                    content += [card(f'<h3>{esc(label)}</h3>' + paragraph(body))]
             if privacy:
                 for index, (label, body) in enumerate(text['privacySections']):
                     extra = ''
@@ -68,7 +80,7 @@ def build():
                     content += [heading(label), card(paragraph(body) + extra)]
                 content += [f'<p><a href="index.html?lang={lang}">{esc(text["support"])}</a></p>']
             else:
-                content += [heading(text['contact']), card(mail() + paragraph(text['contactText']))]
+                content += [heading(text['contact']), card(paragraph(text['intro']) + mail() + paragraph(text['contactText']))]
                 content += [heading(text['questions'])]
                 for question, answer in text['faqs']:
                     content += [card(f'<h3>{esc(question)}</h3>' + paragraph(answer))]

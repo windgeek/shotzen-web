@@ -4,7 +4,7 @@
     "support": "Support",
     "policy": "Privacy Policy",
     "tagline": "Capture, record, mark up & pin on Mac",
-    "date": "Effective 6 October 2026",
+    "date": "Effective 10 October 2026",
     "contact": "Get in touch",
     "questions": "Common questions",
     "requirementsTitle": "Requirements",
@@ -31,6 +31,14 @@
       [
         "How do I capture a long page?",
         "Start a region capture with ⇧⌘A, select the content, and choose Scrolling Capture in the annotation toolbar. Scroll naturally up or down while ShotZen stitches new sections. If the page reaches the end with the final section still outside the frame, drag the frame’s bottom edge downward and release to append it. Choose Finish. Slower scrolling helps if stitching cannot keep up."
+      ],
+      [
+        "ShotZen says an app “blocks screen capture.” What does that mean?",
+        "Some apps ask macOS to keep their windows out of screenshots and recordings. macOS honours that for every tool, its own screenshot feature included, so the window is missing from the capture and whatever lies behind it shows instead. ShotZen labels such windows on the capture screen so you can see why. It is the app's own choice; no setting in ShotZen or in your permissions can override it."
+      ],
+      [
+        "Why is scrolling capture not available in WeChat?",
+        "Scrolling capture takes several captures a second while you scroll, and recent versions of WeChat for Mac can respond to that by locking their window against every screenshot tool for hours. So that this does not happen to you, ShotZen does not run scrolling capture over WeChat; for long chats, use WeChat's own scrolling screenshot. WeChat applies the same lock when it detects automation, such as AI agents that operate the computer; it lifts on its own, usually within a day."
       ],
       [
         "How do I annotate or frame a screenshot precisely?",
@@ -67,7 +75,7 @@
       ],
       [
         "Screen and system audio permission",
-        "ScreenCaptureKit is used for screenshots, scrolling capture, and selected-region recording. macOS screen-capture permission is required; its name varies by macOS version. Capturing starts only after your shortcut or menu command, including a delay you request. Region recording includes system sound and stops after 30 seconds. ShotZen does not request or record microphone audio, and does not monitor your screen when idle."
+        "ScreenCaptureKit is used for screenshots, scrolling capture, and selected-region recording. macOS screen-capture permission is required; its name varies by macOS version. Capturing starts only after your shortcut or menu command, including a delay you request. Region recording includes system sound and stops after 30 seconds. ShotZen does not request or record microphone audio, and does not monitor your screen when idle. To let you click a window, and to recognise apps that keep their windows out of captures, ShotZen reads the list of open windows — their position, size, and owning app — when you start a capture. During a scrolling capture it notices that you are scrolling, so it knows when to take the next frame; it does not see what you type or where you click. None of this is stored or sent anywhere."
       ],
       [
         "Local processing and temporary files",
@@ -94,14 +102,39 @@
         "Updates will be published here with a new effective date. Questions about this policy or support correspondence can be sent to songlaoshi666@gmail.com. Developer: Song Li."
       ]
     ],
-    "githubPolicy": "GitHub Privacy Statement"
+    "githubPolicy": "GitHub Privacy Statement",
+    "productLead": "ShotZen is a quiet screenshot and screen-recording tool for Mac. Press a shortcut, frame what you need, mark it up, and get back to work.",
+    "storeLink": "Download on the Mac App Store",
+    "featuresTitle": "What it does",
+    "features": [
+      [
+        "Capture precisely",
+        "Press ⇧⌘A and drag a region, or click a window to take just that window. Drag any edge to adjust; at the corners a pixel magnifier shows exactly where the edge falls. ⇧⌘F takes the whole screen, and Capture After 3 Seconds lets you photograph an open menu."
+      ],
+      [
+        "Mark it up",
+        "Arrows, rectangles, ellipses, freehand, text, numbered steps and mosaic, on a toolbar right beside the selection. Marks stay movable until you finish — then copy, save, or pin the result."
+      ],
+      [
+        "Scrolling capture",
+        "Turn a long page or conversation into a single image. Scroll by hand, in either direction; ShotZen stitches as you go and tells you plainly if you outrun it."
+      ],
+      [
+        "Record a region",
+        "⇧⌘R records a selected area with the sound your Mac is playing, for up to 30 seconds. Save it as a video, export a high-quality GIF, or copy a lightweight GIF ready to paste into a chat."
+      ],
+      [
+        "Pin to screen",
+        "⇧⌘P captures straight into a floating pin that stays above your work. Zoom it, fade it into a reference layer you can trace against, or let clicks pass through it."
+      ]
+    ]
   },
   "zh-Hans": {
     "name": "简体中文",
     "support": "支持",
     "policy": "隐私政策",
     "tagline": "Mac 截图、录屏、标注与贴图",
-    "date": "生效日期：2026年10月6日",
+    "date": "生效日期：2026年10月10日",
     "contact": "联系方式",
     "questions": "常见问题",
     "requirementsTitle": "运行要求",
@@ -128,6 +161,14 @@
       [
         "怎么截取长页面？",
         "按 ⇧⌘A 开始选区截图，框好内容，在标注工具栏选择长截图。自然向上或向下滚动，ShotZen 会拼接新内容。如果已经滚到底，最后一段仍在框外，可以向下拖动选区底边，松手后补入末段，再点击完成。拼接跟不上时请放慢滚动速度。"
+      ],
+      [
+        "ShotZen 提示某个应用“禁止截屏”，是什么意思？",
+        "有些应用会要求 macOS 不让它的窗口出现在截图和录屏里。macOS 对所有工具都执行这个要求，系统自带的截图也不例外，所以截图里会缺少这个窗口，露出的是它后面的内容。ShotZen 会在截图界面上标出这类窗口，让你知道原因。这是该应用自己的设置，ShotZen 和权限设置都无法绕过。"
+      ],
+      [
+        "为什么微信里不能用长截图？",
+        "长截图在你滚动时每秒要截好几次图，而新版 Mac 微信可能会因此锁住自己的窗口，在数小时内不让任何截图工具截取。为了不让你遇到这种情况，ShotZen 不会在微信中进行长截图；长聊天记录可以用微信自带的滚动截图。另外，微信检测到自动化操作（比如能操控电脑的 AI 工具）时也会这样锁住截图，通常一天内会自动解除。"
       ],
       [
         "怎么标注和精确调整选区？",
@@ -164,7 +205,7 @@
       ],
       [
         "屏幕与系统音频权限",
-        "ShotZen 使用 ScreenCaptureKit 完成截图、滚动长截图和选区录屏，需要 macOS 的屏幕捕捉权限，具体名称随系统版本而异。捕捉只在你按下快捷键或选择菜单命令后开始，也包括你主动选择的延时截图。选区录屏收录系统声音，并在 30 秒后自动停止。ShotZen 不请求或录制麦克风音频，空闲时不监视屏幕。"
+        "ShotZen 使用 ScreenCaptureKit 完成截图、滚动长截图和选区录屏，需要 macOS 的屏幕捕捉权限，具体名称随系统版本而异。捕捉只在你按下快捷键或选择菜单命令后开始，也包括你主动选择的延时截图。选区录屏收录系统声音，并在 30 秒后自动停止。ShotZen 不请求或录制麦克风音频，空闲时不监视屏幕。为了让你可以点击窗口截图，并识别那些禁止截屏的应用，ShotZen 会在你开始截图时读取当前打开的窗口列表 —— 位置、大小和所属应用。长截图期间，它会感知你正在滚动，以便知道何时截取下一帧；它看不到你输入的内容，也不知道你点了哪里。这些信息都不会被保存或发送到任何地方。"
       ],
       [
         "本地处理与临时文件",
@@ -191,14 +232,39 @@
         "修订将在本页面公布，并更新生效日期。对本政策或支持邮件有疑问，请联系 songlaoshi666@gmail.com。开发者：Song Li。"
       ]
     ],
-    "githubPolicy": "GitHub 隐私声明"
+    "githubPolicy": "GitHub 隐私声明",
+    "productLead": "ShotZen 是一款安静的 Mac 截图与录屏工具。按下快捷键，框选需要的内容，标注一下，然后回到你正在做的事。",
+    "storeLink": "前往 Mac App Store 下载",
+    "featuresTitle": "能做什么",
+    "features": [
+      [
+        "精准截图",
+        "按 ⇧⌘A 拖出选区，或点击某个窗口只截这个窗口。任意边线都能拖动调整，靠近边角时像素放大镜会显示边线的准确位置。⇧⌘F 截取全屏，延时 3 秒截取可以截下展开的菜单。"
+      ],
+      [
+        "随手标注",
+        "箭头、矩形、椭圆、画笔、文字、序号和马赛克，工具栏就在选区旁边。完成前标注都可以再移动，之后复制、保存或钉在屏幕上都行。"
+      ],
+      [
+        "长截图",
+        "把一整页网页或一段对话拼成一张图。手动滚动，上下都可以；ShotZen 边滚边拼，滚得太快跟不上时会明确提示。"
+      ],
+      [
+        "录制选区",
+        "⇧⌘R 录制选定区域，同时录下 Mac 正在播放的声音，最长 30 秒。可以保存为视频、导出高质量 GIF，或者复制一份适合发到聊天里的轻量 GIF。"
+      ],
+      [
+        "钉在屏幕上",
+        "⇧⌘P 截图后直接变成浮在最前面的贴图。可以缩放、调低透明度当作描摹用的参考层，也可以让点击穿透它。"
+      ]
+    ]
   },
   "zh-Hant": {
     "name": "繁體中文",
     "support": "支援",
     "policy": "隱私權政策",
     "tagline": "Mac 擷取、錄影、標註與浮動貼圖",
-    "date": "生效日期：2026年10月6日",
+    "date": "生效日期：2026年10月10日",
     "contact": "聯絡方式",
     "questions": "常見問題",
     "requirementsTitle": "系統需求",
@@ -225,6 +291,14 @@
       [
         "如何擷取長頁面？",
         "按 ⇧⌘A 開始擷取，框選內容，在標註工具列選擇長截圖。自然向上或向下捲動，ShotZen 會拼接新內容。如果已捲到底，最後一段仍在框外，可向下拖曳選取框底邊，放開後補入末段，再選擇完成。拼接跟不上時請放慢捲動速度。"
+      ],
+      [
+        "ShotZen 提示某個 App「禁止截圖」，是什麼意思？",
+        "有些 App 會要求 macOS 不讓它的視窗出現在截圖與錄影中。macOS 對所有工具都執行這項要求，系統內建的截圖也不例外，所以擷圖中會缺少該視窗，露出的是它後方的內容。ShotZen 會在擷取畫面上標示這類視窗，讓你知道原因。這是該 App 自己的設定，ShotZen 與權限設定都無法繞過。"
+      ],
+      [
+        "為什麼微信裡不能使用長截圖？",
+        "長截圖在你捲動時每秒要擷取好幾次，而新版 Mac 微信可能因此鎖住自己的視窗，在數小時內不讓任何截圖工具擷取。為了不讓你遇到這種情況，ShotZen 不會在微信中進行長截圖；長聊天記錄可以使用微信內建的捲動截圖。另外，微信偵測到自動化操作（例如能操控電腦的 AI 工具）時也會這樣鎖住截圖，通常一天內會自動解除。"
       ],
       [
         "如何標註與精確調整選取範圍？",
@@ -261,7 +335,7 @@
       ],
       [
         "螢幕與系統音訊權限",
-        "ShotZen 使用 ScreenCaptureKit 完成擷取、捲動長截圖及選取範圍錄影，需要 macOS 螢幕擷取權限，名稱依系統版本而異。擷取只在你按下快速鍵或選擇選單指令後開始，也包括你主動選擇的延遲擷取。選取範圍錄影包含系統聲音，並在 30 秒後自動停止。ShotZen 不要求或錄製麥克風音訊，閒置時不監看螢幕。"
+        "ShotZen 使用 ScreenCaptureKit 完成擷取、捲動長截圖及選取範圍錄影，需要 macOS 螢幕擷取權限，名稱依系統版本而異。擷取只在你按下快速鍵或選擇選單指令後開始，也包括你主動選擇的延遲擷取。選取範圍錄影包含系統聲音，並在 30 秒後自動停止。ShotZen 不要求或錄製麥克風音訊，閒置時不監看螢幕。為了讓你可以點按視窗擷取，並辨識那些禁止截圖的 App，ShotZen 會在你開始擷取時讀取目前開啟的視窗清單 —— 位置、大小與所屬 App。長截圖期間，它會察覺你正在捲動，以便知道何時擷取下一張；它看不到你輸入的內容，也不知道你點了哪裡。這些資訊都不會被儲存或傳送到任何地方。"
       ],
       [
         "本機處理與暫存檔案",
@@ -288,14 +362,39 @@
         "修訂會公布於本頁面，並更新生效日期。對本政策或支援郵件有疑問，請聯絡 songlaoshi666@gmail.com。開發者：Song Li。"
       ]
     ],
-    "githubPolicy": "GitHub 隱私權聲明"
+    "githubPolicy": "GitHub 隱私權聲明",
+    "productLead": "ShotZen 是一款安靜的 Mac 截圖與錄影工具。按下快速鍵，框選需要的內容，標註一下，然後回到你正在做的事。",
+    "storeLink": "前往 Mac App Store 下載",
+    "featuresTitle": "能做什麼",
+    "features": [
+      [
+        "精準擷取",
+        "按 ⇧⌘A 拖出選取範圍，或點按某個視窗只擷取該視窗。任何邊線都能拖動調整，靠近邊角時像素放大鏡會顯示邊線的準確位置。⇧⌘F 擷取整個螢幕，延遲 3 秒擷取可以擷取展開的選單。"
+      ],
+      [
+        "隨手標註",
+        "箭頭、矩形、橢圓、畫筆、文字、序號和馬賽克，工具列就在選取範圍旁邊。完成前標註都能再移動，之後拷貝、儲存或釘在螢幕上皆可。"
+      ],
+      [
+        "長截圖",
+        "把一整頁網頁或一段對話拼成一張圖。手動捲動，上下皆可；ShotZen 會邊捲邊拼接，捲太快跟不上時會明白提示。"
+      ],
+      [
+        "錄製選取範圍",
+        "⇧⌘R 錄製選取範圍，同時錄下 Mac 正在播放的聲音，最長 30 秒。可以儲存為影片、輸出高品質 GIF，或拷貝一份適合貼到聊天中的輕量 GIF。"
+      ],
+      [
+        "釘在螢幕上",
+        "⇧⌘P 擷取後直接成為浮在最上層的釘圖。可以縮放、降低不透明度當作描摹用的參考層，也能讓點按穿透它。"
+      ]
+    ]
   },
   "ja": {
     "name": "日本語",
     "support": "サポート",
     "policy": "プライバシーポリシー",
     "tagline": "Mac で撮影・録画・注釈・ピン留め",
-    "date": "施行日：2026年10月6日",
+    "date": "施行日：2026年10月10日",
     "contact": "お問い合わせ",
     "questions": "よくある質問",
     "requirementsTitle": "システム要件",
@@ -322,6 +421,14 @@
       [
         "長いページを撮影するには？",
         "⇧⌘A で範囲を選び、注釈ツールバーでスクロール撮影を選択します。上下に自然にスクロールすると、新しい部分をつなぎ合わせます。ページの末尾に達しても最後の部分が枠の外にある場合は、枠の下辺を下へドラッグして離し、末尾を追加してから完了を選びます。つなぎ合わせが追いつかない場合はゆっくりスクロールしてください。"
+      ],
+      [
+        "「画面の取り込みを禁止しています」と表示されるのはなぜですか？",
+        "アプリによっては、スクリーンショットや録画に自分のウインドウが写らないよう macOS に指定しています。macOS はこの指定をすべてのツールに適用し、標準のスクリーンショットも例外ではありません。そのため取り込んだ画像からそのウインドウが抜け、背後の内容が写ります。ShotZen は取り込み画面でこうしたウインドウに表示を付け、理由がわかるようにしています。これはそのアプリ自身の設定で、ShotZen や権限の設定では回避できません。"
+      ],
+      [
+        "WeChat でスクロール撮影が使えないのはなぜですか？",
+        "スクロール撮影は、スクロール中に1秒間に何度も取り込みます。最近の Mac 版 WeChat はこれに反応し、数時間にわたってどのスクリーンショットツールからもウインドウを取り込めないようにすることがあります。そうならないよう、ShotZen は WeChat ではスクロール撮影を行いません。長いチャットは WeChat のスクロールスクリーンショットをお使いください。なお WeChat は、コンピュータを操作する AI エージェントなどの自動操作を検出したときも同様にロックし、通常は1日以内に自動で解除されます。"
       ],
       [
         "注釈や正確な範囲調整はできますか？",
@@ -358,7 +465,7 @@
       ],
       [
         "画面とシステム音声の許可",
-        "ScreenCaptureKit で撮影、スクロール撮影、範囲録画を行います。macOS の画面収録の許可が必要で、名称はバージョンによって異なります。撮影はユーザーのショートカットやメニュー操作で開始され、指定した遅延撮影も含みます。範囲録画はシステム音声を含み、30 秒で停止します。マイク音声を要求・録音せず、待機中に画面を監視しません。"
+        "ScreenCaptureKit で撮影、スクロール撮影、範囲録画を行います。macOS の画面収録の許可が必要で、名称はバージョンによって異なります。撮影はユーザーのショートカットやメニュー操作で開始され、指定した遅延撮影も含みます。範囲録画はシステム音声を含み、30 秒で停止します。マイク音声を要求・録音せず、待機中に画面を監視しません。ウインドウをクリックして取り込めるように、また取り込みを禁止しているアプリを見分けるために、ShotZen は取り込みを始めたときに開いているウインドウの一覧（位置、大きさ、所属するアプリ）を読み取ります。スクロール撮影中は、次のフレームを撮るタイミングを知るためにスクロールしていることを検知します。入力内容やクリックした場所はわかりません。これらはどこにも保存も送信もされません。"
       ],
       [
         "ローカル処理と一時ファイル",
@@ -385,14 +492,39 @@
         "改訂は新しい施行日とともにここに掲載します。ポリシーやサポートメールについては songlaoshi666@gmail.com にご連絡ください。開発者：Song Li。"
       ]
     ],
-    "githubPolicy": "GitHub プライバシーステートメント"
+    "githubPolicy": "GitHub プライバシーステートメント",
+    "productLead": "ShotZen は、静かな Mac 用スクリーンショット＆画面録画ツールです。ショートカットを押して、範囲を決めて、注釈を入れて、作業に戻る。",
+    "storeLink": "Mac App Store でダウンロード",
+    "featuresTitle": "できること",
+    "features": [
+      [
+        "正確に取り込む",
+        "⇧⌘A を押して範囲をドラッグするか、ウインドウをクリックしてそのウインドウだけを取り込みます。どの辺もドラッグで調整でき、角ではピクセル拡大表示で境界の位置を正確に確認できます。⇧⌘F で画面全体を、3秒後に取り込むで開いたメニューを取り込めます。"
+      ],
+      [
+        "注釈を入れる",
+        "矢印、四角形、楕円、手描き、テキスト、番号、モザイクを、選択範囲のすぐ横のツールバーから。完了するまで注釈は動かせます。あとはコピー、保存、ピン留めのいずれかを選ぶだけです。"
+      ],
+      [
+        "スクロール撮影",
+        "長いページや会話を1枚の画像にまとめます。手でスクロールするだけ。上下どちらでも構いません。ShotZen がスクロールに合わせてつなぎ、追いつけない速さのときははっきり知らせます。"
+      ],
+      [
+        "範囲を録画",
+        "⇧⌘R で選択した範囲を、Mac で再生中の音声とともに最長30秒録画します。ビデオとして保存、高画質 GIF として書き出し、またはチャットに貼れる軽量 GIF としてコピーできます。"
+      ],
+      [
+        "画面にピン留め",
+        "⇧⌘P で取り込んだ画像を、そのまま作業の最前面に浮かぶピンにします。拡大縮小、なぞれる参照レイヤーへの半透明化、クリックの透過ができます。"
+      ]
+    ]
   },
   "ko": {
     "name": "한국어",
     "support": "지원",
     "policy": "개인정보 처리방침",
     "tagline": "Mac에서 캡처, 녹화, 주석, 화면 고정",
-    "date": "시행일: 2026년 10월 6일",
+    "date": "시행일: 2026년 10월 10일",
     "contact": "문의하기",
     "questions": "자주 묻는 질문",
     "requirementsTitle": "시스템 요구 사항",
@@ -419,6 +551,14 @@
       [
         "긴 페이지는 어떻게 캡처하나요?",
         "⇧⌘A로 영역을 선택한 뒤 주석 도구 막대에서 스크롤 캡처를 선택하세요. 위아래로 자연스럽게 스크롤하면 새로운 부분을 이어 붙입니다. 페이지 끝에 도달했지만 마지막 부분이 틀 밖에 있다면 아래쪽 테두리를 아래로 끌었다가 놓아 추가한 뒤 완료를 선택하세요. 이어 붙이기가 따라오지 못하면 천천히 스크롤하세요."
+      ],
+      [
+        "ShotZen이 어떤 앱이 ‘화면 캡처를 차단’한다고 표시합니다. 무슨 뜻인가요?",
+        "일부 앱은 자신의 윈도우가 스크린샷과 녹화에 나타나지 않도록 macOS에 요청합니다. macOS는 이 요청을 모든 도구에 적용하며 기본 스크린샷도 예외가 아닙니다. 그래서 캡처에서 해당 윈도우가 빠지고 그 뒤에 있던 내용이 보입니다. ShotZen은 캡처 화면에서 이런 윈도우에 표시를 달아 이유를 알 수 있게 합니다. 이는 해당 앱의 자체 설정이며, ShotZen이나 권한 설정으로는 우회할 수 없습니다."
+      ],
+      [
+        "WeChat에서 스크롤 캡처를 쓸 수 없는 이유는 무엇인가요?",
+        "스크롤 캡처는 스크롤하는 동안 1초에 여러 번 캡처합니다. 최근 Mac용 WeChat은 이에 반응해 몇 시간 동안 어떤 스크린샷 도구로도 윈도우를 캡처하지 못하게 잠글 수 있습니다. 이런 일을 겪지 않도록 ShotZen은 WeChat에서 스크롤 캡처를 하지 않습니다. 긴 채팅은 WeChat 자체의 스크롤 스크린샷을 사용하세요. 또한 WeChat은 컴퓨터를 조작하는 AI 에이전트 같은 자동화를 감지할 때도 같은 잠금을 걸며, 보통 하루 안에 자동으로 풀립니다."
       ],
       [
         "주석을 추가하고 영역을 정확하게 맞추려면?",
@@ -455,7 +595,7 @@
       ],
       [
         "화면 및 시스템 오디오 권한",
-        "ScreenCaptureKit으로 스크린샷, 스크롤 캡처, 영역 녹화를 수행합니다. macOS 화면 캡처 권한이 필요하며 이름은 버전에 따라 다릅니다. 사용자가 단축키나 메뉴 명령을 실행했을 때만 시작하며 직접 선택한 지연 캡처도 포함됩니다. 영역 녹화는 시스템 소리를 포함하고 30초 후 중지됩니다. 마이크 오디오를 요청하거나 녹음하지 않으며 대기 중 화면을 감시하지 않습니다."
+        "ScreenCaptureKit으로 스크린샷, 스크롤 캡처, 영역 녹화를 수행합니다. macOS 화면 캡처 권한이 필요하며 이름은 버전에 따라 다릅니다. 사용자가 단축키나 메뉴 명령을 실행했을 때만 시작하며 직접 선택한 지연 캡처도 포함됩니다. 영역 녹화는 시스템 소리를 포함하고 30초 후 중지됩니다. 마이크 오디오를 요청하거나 녹음하지 않으며 대기 중 화면을 감시하지 않습니다. 윈도우를 클릭해 캡처할 수 있도록, 그리고 캡처를 차단하는 앱을 알아보기 위해 ShotZen은 캡처를 시작할 때 열려 있는 윈도우 목록(위치, 크기, 소속 앱)을 읽습니다. 스크롤 캡처 중에는 다음 프레임을 찍을 시점을 알기 위해 스크롤하고 있다는 사실만 감지하며, 입력한 내용이나 클릭한 위치는 알 수 없습니다. 이 정보는 어디에도 저장되거나 전송되지 않습니다."
       ],
       [
         "로컬 처리와 임시 파일",
@@ -482,14 +622,39 @@
         "변경 사항은 새로운 시행일과 함께 이 페이지에 게시합니다. 방침이나 지원 이메일 관련 문의는 songlaoshi666@gmail.com으로 보내 주세요. 개발자: Song Li."
       ]
     ],
-    "githubPolicy": "GitHub 개인정보처리방침"
+    "githubPolicy": "GitHub 개인정보처리방침",
+    "productLead": "ShotZen은 조용한 Mac용 스크린샷·화면 녹화 도구입니다. 단축키를 누르고, 필요한 영역을 고르고, 주석을 단 뒤 하던 일로 돌아가세요.",
+    "storeLink": "Mac App Store에서 다운로드",
+    "featuresTitle": "주요 기능",
+    "features": [
+      [
+        "정확한 캡처",
+        "⇧⌘A를 누르고 영역을 드래그하거나, 윈도우를 클릭해 해당 윈도우만 캡처합니다. 어느 가장자리든 드래그해 조정할 수 있고, 모서리에서는 픽셀 확대 화면으로 경계 위치를 정확히 확인할 수 있습니다. ⇧⌘F는 전체 화면을, 3초 후 캡처는 열려 있는 메뉴를 캡처합니다."
+      ],
+      [
+        "주석 달기",
+        "화살표, 사각형, 타원, 자유 그리기, 텍스트, 번호, 모자이크를 선택 영역 바로 옆 도구 막대에서 사용할 수 있습니다. 완료하기 전까지 주석은 계속 옮길 수 있고, 마치면 복사·저장·고정 중 하나를 고르면 됩니다."
+      ],
+      [
+        "스크롤 캡처",
+        "긴 페이지나 대화를 한 장의 이미지로 만듭니다. 직접 스크롤하면 되고 방향은 상관없습니다. ShotZen이 스크롤에 맞춰 이어 붙이며, 너무 빠르면 분명하게 알려 줍니다."
+      ],
+      [
+        "영역 녹화",
+        "⇧⌘R로 선택한 영역을 Mac에서 재생 중인 소리와 함께 최대 30초까지 녹화합니다. 비디오로 저장하거나 고화질 GIF로 내보내거나, 채팅에 바로 붙일 수 있는 가벼운 GIF로 복사할 수 있습니다."
+      ],
+      [
+        "화면에 고정",
+        "⇧⌘P로 캡처한 이미지를 바로 작업 화면 위에 떠 있는 고정 이미지로 만듭니다. 확대·축소하거나, 따라 그릴 수 있는 참고 레이어로 흐리게 하거나, 클릭이 통과하도록 할 수 있습니다."
+      ]
+    ]
   },
   "de": {
     "name": "Deutsch",
     "support": "Support",
     "policy": "Datenschutzerklärung",
     "tagline": "Aufnehmen, aufzeichnen, markieren und anheften am Mac",
-    "date": "Gültig ab 6. Oktober 2026",
+    "date": "Gültig ab 10. Oktober 2026",
     "contact": "Kontakt",
     "questions": "Häufige Fragen",
     "requirementsTitle": "Systemanforderungen",
@@ -516,6 +681,14 @@
       [
         "Wie nehme ich lange Seiten auf?",
         "Wählen Sie mit ⇧⌘A einen Bereich und dann die Scroll-Aufnahme in der Anmerkungsleiste. Scrollen Sie gleichmäßig nach oben oder unten; ShotZen fügt neue Abschnitte zusammen. Liegt am Seitenende noch Inhalt außerhalb des Rahmens, ziehen Sie dessen untere Kante nach unten und lassen sie los, um den Rest anzufügen. Wählen Sie dann Fertig. Scrollen Sie langsamer, falls die Verarbeitung nicht mitkommt."
+      ],
+      [
+        "ShotZen meldet, eine App „blockiert Bildschirmaufnahmen“. Was heißt das?",
+        "Manche Apps bitten macOS, ihre Fenster aus Bildschirmfotos und Aufzeichnungen herauszuhalten. macOS setzt das für jedes Werkzeug durch, auch für die eigene Bildschirmfoto-Funktion. Das Fenster fehlt dann in der Aufnahme, und man sieht, was dahinter liegt. ShotZen kennzeichnet solche Fenster in der Aufnahmeansicht, damit der Grund erkennbar ist. Es ist eine Entscheidung der App selbst; keine Einstellung in ShotZen oder bei den Berechtigungen kann sie umgehen."
+      ],
+      [
+        "Warum gibt es in WeChat keine Scroll-Aufnahme?",
+        "Die Scroll-Aufnahme nimmt beim Scrollen mehrmals pro Sekunde auf, und aktuelle Versionen von WeChat für Mac können darauf reagieren, indem sie ihr Fenster stundenlang für alle Bildschirmfoto-Werkzeuge sperren. Damit Ihnen das nicht passiert, führt ShotZen über WeChat keine Scroll-Aufnahme aus; für lange Chats nutzen Sie die Scroll-Aufnahme von WeChat selbst. Dieselbe Sperre setzt WeChat, wenn es Automatisierung erkennt – etwa KI-Agenten, die den Computer bedienen; sie löst sich von selbst, meist innerhalb eines Tages."
       ],
       [
         "Wie markiere ich etwas und passe den Ausschnitt genau an?",
@@ -552,7 +725,7 @@
       ],
       [
         "Bildschirm- und Systemaudiozugriff",
-        "ScreenCaptureKit wird für Bildschirmfotos, Scroll-Aufnahmen und Bereichsvideos verwendet. Die macOS-Erlaubnis zur Bildschirmaufnahme ist erforderlich; ihr Name variiert je nach Version. Aufnahmen beginnen nur auf Ihren Kurzbefehl oder Menübefehl hin, einschließlich angeforderter Verzögerungen. Bereichsvideos enthalten Systemaudio und enden nach 30 Sekunden. ShotZen fordert kein Mikrofon an, nimmt es nicht auf und überwacht den Bildschirm nicht im Ruhezustand."
+        "ScreenCaptureKit wird für Bildschirmfotos, Scroll-Aufnahmen und Bereichsvideos verwendet. Die macOS-Erlaubnis zur Bildschirmaufnahme ist erforderlich; ihr Name variiert je nach Version. Aufnahmen beginnen nur auf Ihren Kurzbefehl oder Menübefehl hin, einschließlich angeforderter Verzögerungen. Bereichsvideos enthalten Systemaudio und enden nach 30 Sekunden. ShotZen fordert kein Mikrofon an, nimmt es nicht auf und überwacht den Bildschirm nicht im Ruhezustand. Damit Sie ein Fenster anklicken können und um Apps zu erkennen, die ihre Fenster aus Aufnahmen heraushalten, liest ShotZen beim Start einer Aufnahme die Liste der geöffneten Fenster — Position, Größe und zugehörige App. Während einer Scroll-Aufnahme bemerkt es, dass Sie scrollen, um zu wissen, wann das nächste Bild fällig ist; was Sie tippen oder wohin Sie klicken, sieht es nicht. Nichts davon wird gespeichert oder irgendwohin gesendet."
       ],
       [
         "Lokale Verarbeitung und temporäre Dateien",
@@ -579,14 +752,39 @@
         "Änderungen werden hier mit neuem Gültigkeitsdatum veröffentlicht. Fragen zur Erklärung oder zur Support-Korrespondenz richten Sie an songlaoshi666@gmail.com. Entwickler: Song Li."
       ]
     ],
-    "githubPolicy": "GitHub-Datenschutzerklärung"
+    "githubPolicy": "GitHub-Datenschutzerklärung",
+    "productLead": "ShotZen ist ein leises Werkzeug für Bildschirmfotos und Bildschirmaufzeichnungen auf dem Mac. Kurzbefehl drücken, Ausschnitt wählen, markieren – und weiterarbeiten.",
+    "storeLink": "Im Mac App Store laden",
+    "featuresTitle": "Was es kann",
+    "features": [
+      [
+        "Präzise aufnehmen",
+        "Mit ⇧⌘A einen Bereich aufziehen oder ein Fenster anklicken, um nur dieses aufzunehmen. Jede Kante lässt sich ziehen; an den Ecken zeigt eine Pixellupe genau, wo die Kante liegt. ⇧⌘F nimmt den ganzen Bildschirm auf, und Nach 3 Sekunden aufnehmen erfasst auch geöffnete Menüs."
+      ],
+      [
+        "Markieren",
+        "Pfeile, Rechtecke, Ellipsen, Freihand, Text, Nummern und Mosaik – in einer Werkzeugleiste direkt neben der Auswahl. Bis zum Abschluss bleiben Markierungen verschiebbar; danach kopieren, sichern oder anheften."
+      ],
+      [
+        "Scroll-Aufnahme",
+        "Macht aus einer langen Seite oder einem Gespräch ein einziges Bild. Von Hand scrollen, in beide Richtungen; ShotZen fügt laufend zusammen und sagt deutlich, wenn Sie zu schnell sind."
+      ],
+      [
+        "Bereich aufzeichnen",
+        "⇧⌘R zeichnet einen ausgewählten Bereich samt dem Ton auf, den Ihr Mac gerade abspielt – bis zu 30 Sekunden. Als Video sichern, als hochwertiges GIF exportieren oder als leichtes GIF für den Chat kopieren."
+      ],
+      [
+        "Auf dem Bildschirm anheften",
+        "⇧⌘P nimmt direkt als schwebende Referenz über Ihrer Arbeit auf. Zoomen, zu einer Ebene zum Nachzeichnen abblenden oder Klicks durchlassen."
+      ]
+    ]
   },
   "fr": {
     "name": "Français",
     "support": "Assistance",
     "policy": "Politique de confidentialité",
     "tagline": "Capturer, enregistrer, annoter et épingler sur Mac",
-    "date": "En vigueur le 6 octobre 2026",
+    "date": "En vigueur le 10 octobre 2026",
     "contact": "Nous contacter",
     "questions": "Questions fréquentes",
     "requirementsTitle": "Configuration requise",
@@ -613,6 +811,14 @@
       [
         "Comment capturer une longue page ?",
         "Sélectionnez une zone avec ⇧⌘A, puis la capture défilante dans la barre d’annotation. Faites défiler naturellement vers le haut ou le bas ; ShotZen assemble les nouvelles sections. Si le bas de la page reste hors du cadre, tirez le bord inférieur vers le bas et relâchez pour ajouter la dernière section, puis terminez. Ralentissez le défilement si l’assemblage ne suit pas."
+      ],
+      [
+        "ShotZen indique qu’une app « bloque la capture d’écran ». Qu’est-ce que cela signifie ?",
+        "Certaines apps demandent à macOS d’exclure leurs fenêtres des captures et des enregistrements. macOS l’applique à tous les outils, y compris sa propre fonction de capture : la fenêtre manque alors dans l’image, et c’est ce qui se trouvait derrière qui apparaît. ShotZen signale ces fenêtres dans l’écran de capture pour que vous en compreniez la raison. C’est un choix de l’app elle-même ; aucun réglage de ShotZen ni des autorisations ne peut le contourner."
+      ],
+      [
+        "Pourquoi la capture défilante n’est-elle pas disponible dans WeChat ?",
+        "La capture défilante prend plusieurs captures par seconde pendant que vous faites défiler, et les versions récentes de WeChat pour Mac peuvent y répondre en verrouillant leur fenêtre contre tout outil de capture pendant des heures. Pour que cela ne vous arrive pas, ShotZen n’effectue pas de capture défilante dans WeChat ; pour les longues conversations, utilisez la capture défilante intégrée à WeChat. WeChat applique le même verrou lorsqu’il détecte une automatisation, comme des agents d’IA qui pilotent l’ordinateur ; il se lève de lui-même, en général en moins d’un jour."
       ],
       [
         "Comment annoter et ajuster précisément le cadrage ?",
@@ -649,7 +855,7 @@
       ],
       [
         "Autorisation d’écran et d’audio système",
-        "ScreenCaptureKit sert aux captures, aux captures défilantes et à l’enregistrement d’une zone. L’autorisation macOS de capture d’écran est nécessaire ; son nom varie selon la version. La capture commence uniquement après votre raccourci ou commande, y compris une capture différée demandée. L’enregistrement d’une zone inclut le son système et s’arrête après 30 secondes. ShotZen ne demande ni n’enregistre le microphone et ne surveille pas l’écran au repos."
+        "ScreenCaptureKit sert aux captures, aux captures défilantes et à l’enregistrement d’une zone. L’autorisation macOS de capture d’écran est nécessaire ; son nom varie selon la version. La capture commence uniquement après votre raccourci ou commande, y compris une capture différée demandée. L’enregistrement d’une zone inclut le son système et s’arrête après 30 secondes. ShotZen ne demande ni n’enregistre le microphone et ne surveille pas l’écran au repos. Pour vous permettre de cliquer sur une fenêtre, et pour reconnaître les apps qui excluent leurs fenêtres des captures, ShotZen lit la liste des fenêtres ouvertes — position, taille et app propriétaire — lorsque vous lancez une capture. Pendant une capture défilante, il remarque que vous faites défiler afin de savoir quand prendre l’image suivante ; il ne voit ni ce que vous tapez ni où vous cliquez. Rien de tout cela n’est conservé ni envoyé où que ce soit."
       ],
       [
         "Traitement local et fichiers temporaires",
@@ -676,14 +882,39 @@
         "Les mises à jour seront publiées ici avec une nouvelle date d’entrée en vigueur. Pour toute question concernant cette politique ou vos échanges d’assistance, écrivez à songlaoshi666@gmail.com. Développeur : Song Li."
       ]
     ],
-    "githubPolicy": "Déclaration de confidentialité de GitHub"
+    "githubPolicy": "Déclaration de confidentialité de GitHub",
+    "productLead": "ShotZen est un outil de capture et d’enregistrement d’écran discret pour Mac. Un raccourci, un cadrage, quelques annotations — et vous reprenez votre travail.",
+    "storeLink": "Télécharger sur le Mac App Store",
+    "featuresTitle": "Ce qu’il fait",
+    "features": [
+      [
+        "Capturer avec précision",
+        "Appuyez sur ⇧⌘A et tracez une zone, ou cliquez sur une fenêtre pour ne capturer qu’elle. Chaque bord se règle à la souris ; aux coins, une loupe de pixels montre exactement où il tombe. ⇧⌘F capture tout l’écran, et Capturer après 3 secondes permet de photographier un menu ouvert."
+      ],
+      [
+        "Annoter",
+        "Flèches, rectangles, ellipses, dessin libre, texte, numéros et mosaïque, dans une barre d’outils juste à côté de la sélection. Les annotations restent déplaçables jusqu’à la fin ; ensuite, copiez, enregistrez ou épinglez le résultat."
+      ],
+      [
+        "Capture défilante",
+        "Transforme une longue page ou une conversation en une seule image. Faites défiler à la main, dans un sens ou dans l’autre ; ShotZen assemble au fur et à mesure et vous prévient clairement si vous allez trop vite."
+      ],
+      [
+        "Enregistrer une zone",
+        "⇧⌘R enregistre une zone choisie avec le son que joue votre Mac, jusqu’à 30 secondes. Enregistrez-la en vidéo, exportez un GIF de haute qualité, ou copiez un GIF léger prêt à coller dans une discussion."
+      ],
+      [
+        "Épingler à l’écran",
+        "⇧⌘P capture directement dans une épingle flottante, au-dessus de votre travail. Zoomez, estompez-la en calque de référence à décalquer, ou laissez passer les clics."
+      ]
+    ]
   },
   "es": {
     "name": "Español",
     "support": "Soporte",
     "policy": "Política de privacidad",
     "tagline": "Captura, graba, anota y fija en el Mac",
-    "date": "En vigor desde el 6 de octubre de 2026",
+    "date": "En vigor desde el 10 de octubre de 2026",
     "contact": "Contacto",
     "questions": "Preguntas frecuentes",
     "requirementsTitle": "Requisitos",
@@ -710,6 +941,14 @@
       [
         "¿Cómo capturo una página larga?",
         "Selecciona una zona con ⇧⌘A y elige la captura con desplazamiento en la barra de anotaciones. Desplázate con naturalidad hacia arriba o abajo; ShotZen une las partes nuevas. Si al llegar al final queda contenido fuera del marco, arrastra su borde inferior hacia abajo y suelta para añadirlo; después finaliza. Desplázate más despacio si la composición no sigue el ritmo."
+      ],
+      [
+        "ShotZen dice que una app «bloquea la captura de pantalla». ¿Qué significa?",
+        "Algunas apps piden a macOS que excluya sus ventanas de las capturas y grabaciones. macOS lo aplica a todas las herramientas, incluida su propia función de captura, así que la ventana falta en la imagen y aparece lo que había detrás. ShotZen señala esas ventanas en la pantalla de captura para que veas el motivo. Es una decisión de la propia app; ningún ajuste de ShotZen ni de los permisos puede saltárselo."
+      ],
+      [
+        "¿Por qué no hay captura con desplazamiento en WeChat?",
+        "La captura con desplazamiento toma varias capturas por segundo mientras te desplazas, y las versiones recientes de WeChat para Mac pueden responder bloqueando su ventana ante cualquier herramienta de captura durante horas. Para que no te pase, ShotZen no hace capturas con desplazamiento en WeChat; para conversaciones largas, usa la captura con desplazamiento integrada en WeChat. WeChat aplica el mismo bloqueo cuando detecta automatización, como agentes de IA que manejan el ordenador; se levanta solo, normalmente en menos de un día."
       ],
       [
         "¿Cómo anoto y ajusto el encuadre con precisión?",
@@ -746,7 +985,7 @@
       ],
       [
         "Permiso de pantalla y audio del sistema",
-        "ScreenCaptureKit se utiliza para capturas, capturas con desplazamiento y grabación de una zona. Se requiere permiso de captura de pantalla de macOS; su nombre varía según la versión. Las capturas solo empiezan tras tu atajo o comando, incluido el retardo que solicites. Las grabaciones incluyen el sonido del sistema y terminan a los 30 segundos. ShotZen no solicita ni graba el micrófono y no vigila la pantalla mientras está inactivo."
+        "ScreenCaptureKit se utiliza para capturas, capturas con desplazamiento y grabación de una zona. Se requiere permiso de captura de pantalla de macOS; su nombre varía según la versión. Las capturas solo empiezan tras tu atajo o comando, incluido el retardo que solicites. Las grabaciones incluyen el sonido del sistema y terminan a los 30 segundos. ShotZen no solicita ni graba el micrófono y no vigila la pantalla mientras está inactivo. Para que puedas hacer clic en una ventana, y para reconocer las apps que excluyen sus ventanas de las capturas, ShotZen lee la lista de ventanas abiertas —posición, tamaño y app a la que pertenecen— al iniciar una captura. Durante una captura con desplazamiento detecta que te estás desplazando para saber cuándo tomar el siguiente fotograma; no ve lo que escribes ni dónde haces clic. Nada de esto se guarda ni se envía a ningún sitio."
       ],
       [
         "Procesamiento local y archivos temporales",
@@ -773,14 +1012,39 @@
         "Los cambios se publicarán aquí con una nueva fecha de entrada en vigor. Para consultas sobre esta política o tu correspondencia de soporte, escribe a songlaoshi666@gmail.com. Desarrollador: Song Li."
       ]
     ],
-    "githubPolicy": "Declaración de privacidad de GitHub"
+    "githubPolicy": "Declaración de privacidad de GitHub",
+    "productLead": "ShotZen es una herramienta discreta de capturas y grabación de pantalla para Mac. Pulsa un atajo, encuadra lo que necesitas, anótalo y vuelve a lo tuyo.",
+    "storeLink": "Descargar en el Mac App Store",
+    "featuresTitle": "Qué hace",
+    "features": [
+      [
+        "Capturas precisas",
+        "Pulsa ⇧⌘A y arrastra una zona, o haz clic en una ventana para capturar solo esa ventana. Puedes arrastrar cualquier borde; en las esquinas, una lupa de píxeles muestra exactamente dónde cae. ⇧⌘F captura la pantalla completa y Capturar después de 3 segundos permite fotografiar un menú abierto."
+      ],
+      [
+        "Anotaciones",
+        "Flechas, rectángulos, elipses, trazo libre, texto, números y mosaico, en una barra de herramientas junto a la selección. Las anotaciones se pueden mover hasta que termines; después, copia, guarda o fija el resultado."
+      ],
+      [
+        "Captura con desplazamiento",
+        "Convierte una página larga o una conversación en una sola imagen. Desplázate a mano, en cualquier dirección; ShotZen va uniendo sobre la marcha y te avisa con claridad si vas demasiado rápido."
+      ],
+      [
+        "Grabar una zona",
+        "⇧⌘R graba la zona elegida junto con el sonido que reproduce tu Mac, hasta 30 segundos. Guárdala como vídeo, expórtala como GIF de alta calidad o copia un GIF ligero listo para pegar en un chat."
+      ],
+      [
+        "Fijar en la pantalla",
+        "⇧⌘P captura directamente en una imagen flotante que se queda sobre tu trabajo. Amplíala, atenúala para usarla como capa de referencia o deja pasar los clics a través de ella."
+      ]
+    ]
   },
   "pt-BR": {
     "name": "Português (Brasil)",
     "support": "Suporte",
     "policy": "Política de Privacidade",
     "tagline": "Capture, grave, anote e fixe no Mac",
-    "date": "Vigente a partir de 6 de outubro de 2026",
+    "date": "Vigente a partir de 10 de outubro de 2026",
     "contact": "Fale conosco",
     "questions": "Perguntas frequentes",
     "requirementsTitle": "Requisitos",
@@ -807,6 +1071,14 @@
       [
         "Como capturo uma página longa?",
         "Selecione uma área com ⇧⌘A e escolha a captura com rolagem na barra de anotações. Role naturalmente para cima ou para baixo; o ShotZen une as novas partes. Se o final da página ainda estiver fora da moldura, arraste a borda inferior para baixo e solte para acrescentá-lo. Depois conclua. Role mais devagar se a composição não acompanhar."
+      ],
+      [
+        "O ShotZen diz que um app “bloqueia a captura de tela”. O que isso significa?",
+        "Alguns apps pedem ao macOS que deixe suas janelas fora de capturas e gravações. O macOS aplica isso a todas as ferramentas, inclusive à própria captura de tela do sistema; por isso a janela some da imagem e aparece o que estava atrás dela. O ShotZen identifica essas janelas na tela de captura para que você entenda o motivo. É uma escolha do próprio app; nenhum ajuste do ShotZen ou das permissões pode contorná-la."
+      ],
+      [
+        "Por que não há captura com rolagem no WeChat?",
+        "A captura com rolagem faz várias capturas por segundo enquanto você rola, e as versões recentes do WeChat para Mac podem reagir bloqueando a janela para qualquer ferramenta de captura por horas. Para que isso não aconteça com você, o ShotZen não faz captura com rolagem no WeChat; para conversas longas, use a captura com rolagem do próprio WeChat. O WeChat aplica o mesmo bloqueio quando detecta automação, como agentes de IA que controlam o computador; ele se desfaz sozinho, geralmente em até um dia."
       ],
       [
         "Como anoto e ajusto o enquadramento com precisão?",
@@ -843,7 +1115,7 @@
       ],
       [
         "Permissão de tela e áudio do sistema",
-        "O ScreenCaptureKit é usado para capturas, capturas com rolagem e gravação de uma área. A permissão de captura de tela do macOS é necessária; o nome varia conforme a versão. A captura começa apenas após seu atalho ou comando, incluindo o atraso solicitado. A gravação inclui o áudio do sistema e termina após 30 segundos. O ShotZen não solicita nem grava o microfone e não monitora a tela quando está ocioso."
+        "O ScreenCaptureKit é usado para capturas, capturas com rolagem e gravação de uma área. A permissão de captura de tela do macOS é necessária; o nome varia conforme a versão. A captura começa apenas após seu atalho ou comando, incluindo o atraso solicitado. A gravação inclui o áudio do sistema e termina após 30 segundos. O ShotZen não solicita nem grava o microfone e não monitora a tela quando está ocioso. Para que você possa clicar em uma janela, e para reconhecer apps que deixam suas janelas fora das capturas, o ShotZen lê a lista de janelas abertas — posição, tamanho e app a que pertencem — quando você inicia uma captura. Durante uma captura com rolagem, ele percebe que você está rolando para saber quando registrar o próximo quadro; não vê o que você digita nem onde clica. Nada disso é guardado ou enviado a lugar algum."
       ],
       [
         "Processamento local e arquivos temporários",
@@ -870,6 +1142,31 @@
         "As atualizações serão publicadas aqui com uma nova data de vigência. Para dúvidas sobre esta política ou correspondência de suporte, escreva para songlaoshi666@gmail.com. Desenvolvedor: Song Li."
       ]
     ],
-    "githubPolicy": "Declaração de Privacidade do GitHub"
+    "githubPolicy": "Declaração de Privacidade do GitHub",
+    "productLead": "O ShotZen é uma ferramenta discreta de captura e gravação de tela para Mac. Pressione um atalho, enquadre o que precisa, faça anotações e volte ao trabalho.",
+    "storeLink": "Baixar na Mac App Store",
+    "featuresTitle": "O que ele faz",
+    "features": [
+      [
+        "Capturas precisas",
+        "Pressione ⇧⌘A e arraste uma área, ou clique em uma janela para capturar só ela. Qualquer borda pode ser arrastada; nos cantos, uma lupa de pixels mostra exatamente onde ela fica. ⇧⌘F captura a tela inteira, e Capturar após 3 segundos permite fotografar um menu aberto."
+      ],
+      [
+        "Anotações",
+        "Setas, retângulos, elipses, desenho livre, texto, números e mosaico, em uma barra de ferramentas ao lado da seleção. As anotações podem ser movidas até você terminar; depois, copie, salve ou fixe o resultado."
+      ],
+      [
+        "Captura com rolagem",
+        "Transforma uma página longa ou uma conversa em uma única imagem. Role à mão, em qualquer direção; o ShotZen vai juntando enquanto você rola e avisa com clareza se você for rápido demais."
+      ],
+      [
+        "Gravar uma área",
+        "⇧⌘R grava a área escolhida junto com o som que o Mac está reproduzindo, por até 30 segundos. Salve como vídeo, exporte um GIF de alta qualidade ou copie um GIF leve pronto para colar em uma conversa."
+      ],
+      [
+        "Fixar na tela",
+        "⇧⌘P captura direto em uma imagem flutuante que fica acima do seu trabalho. Amplie, deixe-a translúcida como camada de referência ou permita que os cliques passem através dela."
+      ]
+    ]
   }
 }

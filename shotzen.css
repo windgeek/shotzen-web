@@ -129,6 +129,21 @@ p.lead { color: var(--text); font-size: 17px; }
 a { color: var(--violet); text-decoration-color: rgba(168, 139, 245, 0.4); }
 a:hover { color: var(--gold); text-decoration-color: rgba(245, 191, 84, 0.5); }
 
+/* The one call to action: the App Store link under the lead. Gold, like the
+   rule, so it reads as the family's accent rather than a generic button. */
+.store { margin: 4px 0 0; }
+.store-link {
+  display: inline-block;
+  color: var(--night);
+  background: var(--gold);
+  border-radius: 999px;
+  padding: 9px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.store-link:hover { color: var(--night); background: #f8cf78; }
+
 /* Frosted panel — one question, or one clause of the policy. */
 .card {
   background: rgba(246, 242, 237, 0.045);
