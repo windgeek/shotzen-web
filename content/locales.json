@@ -22,7 +22,7 @@
       ],
       [
         "How do I record a region with sound?",
-        "Press ⇧⌘R, draw the region, and choose Start Recording. Stop whenever you’re done; there’s no time limit. System sound is included, with no microphone access. Choose Copy GIF for a lightweight, silent animation, or Save File for the full MP4 with system sound or a higher-quality silent GIF. GIFs keep up to the first 30 seconds."
+        "Press ⇧⌘R, draw the region, and choose Start Recording. Stop whenever you’re done; since ShotZen 1.3.2 there’s no time limit. System sound is included, with no microphone access. Choose Copy GIF for a lightweight, silent animation, or Save File for the full MP4 with system sound or a higher-quality silent GIF. GIFs keep up to the first 30 seconds."
       ],
       [
         "Why is a pasted GIF silent or shown as a still image?",
@@ -121,7 +121,7 @@
       ],
       [
         "Record a region",
-        "⇧⌘R records a selected area with the sound your Mac is playing, for as long as you need. Save the full video, export a high-quality GIF, or copy a lightweight GIF ready to paste into a chat. GIFs keep up to 30 seconds."
+        "⇧⌘R records a selected area with the sound your Mac is playing, for as long as you need (ShotZen 1.3.2 and later). Save the full video, export a high-quality GIF, or copy a lightweight GIF ready to paste into a chat. GIFs keep up to 30 seconds."
       ],
       [
         "Pin to screen",
@@ -152,7 +152,7 @@
       ],
       [
         "怎么录下选区和系统声音？",
-        "按 ⇧⌘R，框选区域，点击开始录制。录多久都可以，完成后点击停止。录屏收录系统播放的声音，不使用麦克风。选择「复制 GIF」可获得适合聊天的轻量静音动图；选择保存文件，可导出带系统声音的完整 MP4，或画质更高的静音 GIF。GIF 最长保留前 30 秒。"
+        "按 ⇧⌘R，框选区域，点击开始录制。从 1.3.2 起录多久都可以，完成后点击停止。录屏收录系统播放的声音，不使用麦克风。选择「复制 GIF」可获得适合聊天的轻量静音动图；选择保存文件，可导出带系统声音的完整 MP4，或画质更高的静音 GIF。GIF 最长保留前 30 秒。"
       ],
       [
         "为什么 GIF 没有声音，粘贴后也可能不动？",
@@ -251,7 +251,7 @@
       ],
       [
         "录制选区",
-        "⇧⌘R 录制选定区域，同时录下 Mac 正在播放的声音，不限时长。可以保存完整视频、导出高质量 GIF，或者复制一份适合发到聊天里的轻量 GIF；GIF 最长 30 秒。"
+        "⇧⌘R 录制选定区域，同时录下 Mac 正在播放的声音，不限时长（1.3.2 起）。可以保存完整视频、导出高质量 GIF，或者复制一份适合发到聊天里的轻量 GIF；GIF 最长 30 秒。"
       ],
       [
         "钉在屏幕上",
@@ -282,7 +282,7 @@
       ],
       [
         "如何錄下選取範圍與系統聲音？",
-        "按 ⇧⌘R、框選範圍，然後開始錄製。錄多久都可以，完成後點按停止。錄影包含系統播放的聲音，不使用麥克風。選擇複製 GIF 可取得適合聊天的輕量無聲動畫；儲存檔案可匯出帶系統聲音的完整 MP4，或畫質較高的無聲 GIF。GIF 最長保留前 30 秒。"
+        "按 ⇧⌘R、框選範圍，然後開始錄製。從 1.3.2 起錄多久都可以，完成後點按停止。錄影包含系統播放的聲音，不使用麥克風。選擇複製 GIF 可取得適合聊天的輕量無聲動畫；儲存檔案可匯出帶系統聲音的完整 MP4，或畫質較高的無聲 GIF。GIF 最長保留前 30 秒。"
       ],
       [
         "為什麼 GIF 沒有聲音，貼上後也可能不動？",
@@ -381,7 +381,7 @@
       ],
       [
         "錄製選取範圍",
-        "⇧⌘R 錄製選取範圍，同時錄下 Mac 正在播放的聲音，不限時長。可以儲存完整影片、輸出高品質 GIF，或拷貝一份適合貼到聊天中的輕量 GIF；GIF 最長 30 秒。"
+        "⇧⌘R 錄製選取範圍，同時錄下 Mac 正在播放的聲音，不限時長（1.3.2 起）。可以儲存完整影片、輸出高品質 GIF，或拷貝一份適合貼到聊天中的輕量 GIF；GIF 最長 30 秒。"
       ],
       [
         "釘在螢幕上",
@@ -412,7 +412,7 @@
       ],
       [
         "範囲とシステム音声を録画するには？",
-        "⇧⌘R を押して範囲を囲み、録画を開始します。録画時間に制限はありません。完了したら停止してください。システム音声を収録し、マイクは使いません。GIF をコピーするとチャット向けの軽量な無音アニメーションを作成できます。ファイル保存では、システム音声付きの MP4（録画全体）または高画質の無音 GIF を選べます。GIF には最初の最長 30 秒が含まれます。"
+        "⇧⌘R を押して範囲を囲み、録画を開始します。1.3.2 から録画時間に制限はありません。完了したら停止してください。システム音声を収録し、マイクは使いません。GIF をコピーするとチャット向けの軽量な無音アニメーションを作成できます。ファイル保存では、システム音声付きの MP4（録画全体）または高画質の無音 GIF を選べます。GIF には最初の最長 30 秒が含まれます。"
       ],
       [
         "GIF に音がなく、貼り付けると静止画になるのはなぜ？",
@@ -511,7 +511,7 @@
       ],
       [
         "範囲を録画",
-        "⇧⌘R で選択した範囲を、Mac で再生中の音声とともに時間制限なく録画します。ビデオ全体を保存、高画質 GIF として書き出し、またはチャットに貼れる軽量 GIF としてコピーできます。GIF は最長30秒です。"
+        "⇧⌘R で選択した範囲を、Mac で再生中の音声とともに時間制限なく録画します（1.3.2 以降）。ビデオ全体を保存、高画質 GIF として書き出し、またはチャットに貼れる軽量 GIF としてコピーできます。GIF は最長30秒です。"
       ],
       [
         "画面にピン留め",
@@ -542,7 +542,7 @@
       ],
       [
         "영역과 시스템 소리를 녹화하려면 어떻게 하나요?",
-        "⇧⌘R을 누르고 영역을 지정한 뒤 녹화를 시작하세요. 녹화 시간에 제한이 없으니 마치면 중지하세요. 시스템 소리가 포함되며 마이크는 사용하지 않습니다. GIF 복사는 채팅에 적합한 작은 무음 애니메이션을 만듭니다. 파일 저장에서는 시스템 소리가 있는 전체 MP4 또는 더 높은 화질의 무음 GIF를 선택할 수 있습니다. GIF에는 처음 최대 30초가 담깁니다."
+        "⇧⌘R을 누르고 영역을 지정한 뒤 녹화를 시작하세요. 1.3.2부터 녹화 시간에 제한이 없으니 마치면 중지하세요. 시스템 소리가 포함되며 마이크는 사용하지 않습니다. GIF 복사는 채팅에 적합한 작은 무음 애니메이션을 만듭니다. 파일 저장에서는 시스템 소리가 있는 전체 MP4 또는 더 높은 화질의 무음 GIF를 선택할 수 있습니다. GIF에는 처음 최대 30초가 담깁니다."
       ],
       [
         "GIF에 소리가 없거나 붙여넣으면 정지 이미지로 보이는 이유는?",
@@ -641,7 +641,7 @@
       ],
       [
         "영역 녹화",
-        "⇧⌘R로 선택한 영역을 Mac에서 재생 중인 소리와 함께 시간 제한 없이 녹화합니다. 전체 비디오를 저장하거나 고화질 GIF로 내보내거나, 채팅에 바로 붙일 수 있는 가벼운 GIF로 복사할 수 있습니다. GIF는 최대 30초입니다."
+        "⇧⌘R로 선택한 영역을 Mac에서 재생 중인 소리와 함께 시간 제한 없이 녹화합니다(1.3.2부터). 전체 비디오를 저장하거나 고화질 GIF로 내보내거나, 채팅에 바로 붙일 수 있는 가벼운 GIF로 복사할 수 있습니다. GIF는 최대 30초입니다."
       ],
       [
         "화면에 고정",
@@ -672,7 +672,7 @@
       ],
       [
         "Wie zeichne ich einen Bereich mit Ton auf?",
-        "Drücken Sie ⇧⌘R, ziehen Sie den Bereich auf und starten Sie die Aufnahme. Stoppen Sie sie, wenn Sie fertig sind – es gibt kein Zeitlimit. Systemaudio wird mit aufgenommen, das Mikrofon wird nicht verwendet. GIF kopieren erstellt eine kleine, stumme Animation für Chats. Beim Speichern können Sie das vollständige MP4 mit Systemaudio oder ein hochwertigeres stummes GIF wählen. GIFs enthalten bis zu 30 Sekunden."
+        "Drücken Sie ⇧⌘R, ziehen Sie den Bereich auf und starten Sie die Aufnahme. Stoppen Sie sie, wenn Sie fertig sind – seit ShotZen 1.3.2 gibt es kein Zeitlimit. Systemaudio wird mit aufgenommen, das Mikrofon wird nicht verwendet. GIF kopieren erstellt eine kleine, stumme Animation für Chats. Beim Speichern können Sie das vollständige MP4 mit Systemaudio oder ein hochwertigeres stummes GIF wählen. GIFs enthalten bis zu 30 Sekunden."
       ],
       [
         "Warum hat das GIF keinen Ton oder erscheint als Standbild?",
@@ -771,7 +771,7 @@
       ],
       [
         "Bereich aufzeichnen",
-        "⇧⌘R zeichnet einen ausgewählten Bereich samt dem Ton auf, den Ihr Mac gerade abspielt – ohne Zeitlimit. Als vollständiges Video sichern, als hochwertiges GIF exportieren oder als leichtes GIF für den Chat kopieren. GIFs umfassen bis zu 30 Sekunden."
+        "⇧⌘R zeichnet einen ausgewählten Bereich samt dem Ton auf, den Ihr Mac gerade abspielt – ab ShotZen 1.3.2 ohne Zeitlimit. Als vollständiges Video sichern, als hochwertiges GIF exportieren oder als leichtes GIF für den Chat kopieren. GIFs umfassen bis zu 30 Sekunden."
       ],
       [
         "Auf dem Bildschirm anheften",
@@ -802,7 +802,7 @@
       ],
       [
         "Comment enregistrer une zone avec le son ?",
-        "Appuyez sur ⇧⌘R, délimitez la zone et lancez l’enregistrement. Arrêtez-le quand vous avez terminé : il n’y a pas de limite de durée. Le son système est inclus, sans accès au microphone. Copier le GIF crée une animation légère et muette pour les messages. Enregistrer un fichier permet de choisir le MP4 complet avec le son système ou un GIF muet de meilleure qualité. Les GIF durent 30 secondes maximum."
+        "Appuyez sur ⇧⌘R, délimitez la zone et lancez l’enregistrement. Arrêtez-le quand vous avez terminé : depuis ShotZen 1.3.2, il n’y a pas de limite de durée. Le son système est inclus, sans accès au microphone. Copier le GIF crée une animation légère et muette pour les messages. Enregistrer un fichier permet de choisir le MP4 complet avec le son système ou un GIF muet de meilleure qualité. Les GIF durent 30 secondes maximum."
       ],
       [
         "Pourquoi le GIF est-il muet ou affiché comme une image fixe ?",
@@ -901,7 +901,7 @@
       ],
       [
         "Enregistrer une zone",
-        "⇧⌘R enregistre une zone choisie avec le son que joue votre Mac, sans limite de durée. Enregistrez la vidéo complète, exportez un GIF de haute qualité, ou copiez un GIF léger prêt à coller dans une discussion. Les GIF durent 30 secondes maximum."
+        "⇧⌘R enregistre une zone choisie avec le son que joue votre Mac, sans limite de durée depuis ShotZen 1.3.2. Enregistrez la vidéo complète, exportez un GIF de haute qualité, ou copiez un GIF léger prêt à coller dans une discussion. Les GIF durent 30 secondes maximum."
       ],
       [
         "Épingler à l’écran",
@@ -932,7 +932,7 @@
       ],
       [
         "¿Cómo grabo una zona con sonido?",
-        "Pulsa ⇧⌘R, delimita la zona e inicia la grabación. Detenla al terminar; no hay límite de tiempo. Incluye el sonido del sistema y no utiliza el micrófono. Copiar GIF crea una animación ligera y sin sonido para chats. Guardar archivo permite elegir el MP4 completo con sonido o un GIF sin sonido de mayor calidad. Los GIF duran hasta 30 segundos."
+        "Pulsa ⇧⌘R, delimita la zona e inicia la grabación. Detenla al terminar; desde ShotZen 1.3.2 no hay límite de tiempo. Incluye el sonido del sistema y no utiliza el micrófono. Copiar GIF crea una animación ligera y sin sonido para chats. Guardar archivo permite elegir el MP4 completo con sonido o un GIF sin sonido de mayor calidad. Los GIF duran hasta 30 segundos."
       ],
       [
         "¿Por qué el GIF no tiene sonido o aparece como imagen fija?",
@@ -1031,7 +1031,7 @@
       ],
       [
         "Grabar una zona",
-        "⇧⌘R graba la zona elegida junto con el sonido que reproduce tu Mac, sin límite de tiempo. Guarda el vídeo completo, expórtala como GIF de alta calidad o copia un GIF ligero listo para pegar en un chat. Los GIF duran hasta 30 segundos."
+        "⇧⌘R graba la zona elegida junto con el sonido que reproduce tu Mac, sin límite de tiempo desde ShotZen 1.3.2. Guarda el vídeo completo, expórtala como GIF de alta calidad o copia un GIF ligero listo para pegar en un chat. Los GIF duran hasta 30 segundos."
       ],
       [
         "Fijar en la pantalla",
@@ -1062,7 +1062,7 @@
       ],
       [
         "Como gravo uma área com som?",
-        "Pressione ⇧⌘R, delimite a área e inicie a gravação. Pare quando terminar; não há limite de tempo. Inclui o áudio do sistema e não usa o microfone. Copiar GIF cria uma animação leve e sem som para mensagens. Salvar Arquivo permite escolher o MP4 completo com áudio ou um GIF sem som de maior qualidade. Os GIFs têm até 30 segundos."
+        "Pressione ⇧⌘R, delimite a área e inicie a gravação. Pare quando terminar; desde o ShotZen 1.3.2 não há limite de tempo. Inclui o áudio do sistema e não usa o microfone. Copiar GIF cria uma animação leve e sem som para mensagens. Salvar Arquivo permite escolher o MP4 completo com áudio ou um GIF sem som de maior qualidade. Os GIFs têm até 30 segundos."
       ],
       [
         "Por que o GIF não tem som ou aparece como imagem estática?",
@@ -1161,7 +1161,7 @@
       ],
       [
         "Gravar uma área",
-        "⇧⌘R grava a área escolhida junto com o som que o Mac está reproduzindo, sem limite de tempo. Salve o vídeo completo, exporte um GIF de alta qualidade ou copie um GIF leve pronto para colar em uma conversa. Os GIFs têm até 30 segundos."
+        "⇧⌘R grava a área escolhida junto com o som que o Mac está reproduzindo, sem limite de tempo desde o ShotZen 1.3.2. Salve o vídeo completo, exporte um GIF de alta qualidade ou copie um GIF leve pronto para colar em uma conversa. Os GIFs têm até 30 segundos."
       ],
       [
         "Fixar na tela",
