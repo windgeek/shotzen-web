@@ -4,7 +4,7 @@
     "support": "Support",
     "policy": "Privacy Policy",
     "tagline": "Capture, record, mark up & pin on Mac",
-    "date": "Effective 10 October 2026",
+    "date": "Effective 17 October 2026",
     "contact": "Get in touch",
     "questions": "Common questions",
     "requirementsTitle": "Requirements",
@@ -42,11 +42,15 @@
       ],
       [
         "How do I annotate or frame a screenshot precisely?",
-        "Use arrows, rectangles, ellipses, freehand drawing, text, numbered steps, or mosaic in the capture toolbar. Choose among six colors and three stroke weights; move annotations or undo and redo. The live pixel preview helps align the initial selection and edge adjustments. Drag a selection edge or corner to adjust the crop."
+        "Use arrows, rectangles, ellipses, freehand drawing, text, numbered steps, or mosaic in the capture toolbar. Choose among six colors and three stroke weights; move annotations or undo and redo. The live pixel preview helps align the initial selection and edge adjustments. Drag a selection edge or corner to adjust the crop. For text, click an empty spot and type; Return, Escape, or a click elsewhere finishes it. Drag finished text to move it, double-click to edit it, and while it is selected the toolbar's colors and Text size apply to it (2.0 and later)."
+      ],
+      [
+        "How do I copy the text in a screenshot?",
+        "After framing a selection, click Copy text from capture in the toolbar; the recognized text is copied to the clipboard as plain text. Pins work too: right-click and choose Copy Text for all of it, or choose Select Text, drag across the words you want, and press ⌘C; Escape leaves selection. Recognition uses the text recognition built into macOS and runs entirely on your Mac, without a network connection. It reads English, Chinese, Japanese, Korean, most European languages, and more. Mosaic hides text from recognition too. The first recognition after a restart can take a few seconds. Available from 2.0."
       ],
       [
         "How do pins work?",
-        "Choose Pin to Screen, or use ⇧⌘P to capture directly to a floating reference. Drag to move, scroll to resize, and hold Option while scrolling to adjust opacity. Right-click for copy, save, and click-through options. If a pin no longer accepts clicks, use Make Pins Clickable Again in the menu bar. Double-click or press Escape on an active pin to close it."
+        "Choose Pin to Screen, or use ⇧⌘P to capture directly to a floating reference. Drag to move, scroll to resize, and hold Option while scrolling to adjust opacity. Right-click for copy, save, and click-through options. If a pin no longer accepts clicks, use Make Pins Clickable Again in the menu bar. Double-click or press Escape on an active pin to close it. Right-click also offers Copy Text and Select Text to take the words from a pin (2.0 and later)."
       ],
       [
         "Where are screenshots saved, and can I choose PNG or JPEG?",
@@ -79,7 +83,7 @@
       ],
       [
         "Local processing and temporary files",
-        "Screenshots and annotations are processed in memory and can be copied, saved as PNG or JPEG, or kept in floating pins. Recordings and GIF conversion use local temporary files; the app attempts to remove them after export or cancellation. Copy GIF keeps a local cached GIF so it can still be pasted after quitting or relaunching. That cached file remains until a later Copy GIF replaces it; older copies are then removed. Saved files remain until you delete them."
+        "Screenshots and annotations are processed in memory and can be copied, saved as PNG or JPEG, or kept in floating pins. Recordings and GIF conversion use local temporary files; the app attempts to remove them after export or cancellation. Copy GIF keeps a local cached GIF so it can still be pasted after quitting or relaunching. That cached file remains until a later Copy GIF replaces it; older copies are then removed. Saved files remain until you delete them. Text recognition (2.0 and later) uses the recognition built into macOS and runs entirely on your Mac; the recognized text goes only to the clipboard and is not uploaded, stored, or sent anywhere."
       ],
       [
         "Settings and file access",
@@ -113,7 +117,7 @@
       ],
       [
         "Mark it up",
-        "Arrows, rectangles, ellipses, freehand, text, numbered steps and mosaic, on a toolbar right beside the selection. Marks stay movable until you finish — then copy, save, or pin the result."
+        "Arrows, rectangles, ellipses, freehand, text, numbered steps and mosaic, on a toolbar right beside the selection. Marks stay movable until you finish — then copy, save, or pin the result. Click once to type text, then drag it anywhere; the toolbar's colors and text sizes apply to the selected text. Copy text from capture reads the words in your selection, entirely on your Mac (2.0 and later)."
       ],
       [
         "Scrolling capture",
@@ -134,7 +138,7 @@
     "support": "支持",
     "policy": "隐私政策",
     "tagline": "Mac 截图、录屏、标注与贴图",
-    "date": "生效日期：2026年10月10日",
+    "date": "生效日期：2026年10月17日",
     "contact": "联系方式",
     "questions": "常见问题",
     "requirementsTitle": "运行要求",
@@ -172,11 +176,15 @@
       ],
       [
         "怎么标注和精确调整选区？",
-        "截图工具栏提供箭头、矩形、椭圆、画笔、文字、步骤序号和马赛克。可选六种颜色、三档粗细，移动标注，并撤销或重做。初次框选和拖动边框时，局部像素放大预览帮助你对齐细节；拖动选区边线或四角可以调整裁切范围。"
+        "截图工具栏提供箭头、矩形、椭圆、画笔、文字、步骤序号和马赛克。可选六种颜色、三档粗细，移动标注，并撤销或重做。初次框选和拖动边框时，局部像素放大预览帮助你对齐细节；拖动选区边线或四角可以调整裁切范围。添加文字时，在空白处点一下就开始输入，回车、Escape 或点击别处结束。打完的文字可以直接拖动，双击重新编辑；文字选中时，工具栏的颜色和文字大小只作用于这段文字（2.0 起）。"
+      ],
+      [
+        "怎么提取截图里的文字？",
+        "框好选区后，点击工具栏中的「复制截图中的文字」，识别出的文字会以纯文本复制到剪贴板。贴图也可以：右键选择「复制文字」拷贝全部文字；或选择「选择文字」，直接在贴图上拖选需要的部分，按 ⌘C 复制，按 Escape 退出。识别使用 macOS 自带的文字识别，全程在这台 Mac 上进行，不需要联网，支持中文、英文、日文、韩文和大多数欧洲语言等。被马赛克遮住的内容不会被识别。开机后第一次识别可能要等几秒。此功能从 2.0 起提供。"
       ],
       [
         "悬浮贴图怎么用？",
-        "选择钉在屏幕上，或按 ⇧⌘P 截图后直接贴图。拖动可移动，滚轮可缩放，按住 Option 滚动可调整透明度。右键菜单提供复制、保存和点击穿透。穿透后无法点击时，从菜单栏选择恢复贴图交互。双击贴图，或在贴图处于活动状态时按 Escape，可关闭贴图。"
+        "选择钉在屏幕上，或按 ⇧⌘P 截图后直接贴图。拖动可移动，滚轮可缩放，按住 Option 滚动可调整透明度。右键菜单提供复制、保存和点击穿透。穿透后无法点击时，从菜单栏选择恢复贴图交互。双击贴图，或在贴图处于活动状态时按 Escape，可关闭贴图。右键菜单还可以「复制文字」或「选择文字」，取出贴图中的文字（2.0 起）。"
       ],
       [
         "截图保存到哪里？可以选 PNG 或 JPEG 吗？",
@@ -209,7 +217,7 @@
       ],
       [
         "本地处理与临时文件",
-        "截图和标注在内存中处理，可复制、保存为 PNG 或 JPEG，或作为悬浮贴图保留。录屏和 GIF 转换会使用本地临时文件，应用会在导出或取消后尝试删除。「复制 GIF」会保留一份本地缓存，以便退出或重启后仍可粘贴；这份文件会保留到后续复制新 GIF 时被替换，旧缓存随后删除。主动保存的文件会保留到你自行删除。"
+        "截图和标注在内存中处理，可复制、保存为 PNG 或 JPEG，或作为悬浮贴图保留。录屏和 GIF 转换会使用本地临时文件，应用会在导出或取消后尝试删除。「复制 GIF」会保留一份本地缓存，以便退出或重启后仍可粘贴；这份文件会保留到后续复制新 GIF 时被替换，旧缓存随后删除。主动保存的文件会保留到你自行删除。文字识别（2.0 起）使用 macOS 内置的识别功能，全程在本机进行；识别出的文字只会放入剪贴板，不会上传、保存或发送到任何地方。"
       ],
       [
         "设置与文件访问",
@@ -243,7 +251,7 @@
       ],
       [
         "随手标注",
-        "箭头、矩形、椭圆、画笔、文字、序号和马赛克，工具栏就在选区旁边。完成前标注都可以再移动，之后复制、保存或钉在屏幕上都行。"
+        "箭头、矩形、椭圆、画笔、文字、序号和马赛克，工具栏就在选区旁边。完成前标注都可以再移动，之后复制、保存或钉在屏幕上都行。文字点一下就能输入，打完可以随手拖动，颜色和文字大小在工具栏里改。「复制截图中的文字」可以识别选区里的文字，全程在本机完成（2.0 起）。"
       ],
       [
         "长截图",
@@ -264,7 +272,7 @@
     "support": "支援",
     "policy": "隱私權政策",
     "tagline": "Mac 擷取、錄影、標註與浮動貼圖",
-    "date": "生效日期：2026年10月10日",
+    "date": "生效日期：2026年10月17日",
     "contact": "聯絡方式",
     "questions": "常見問題",
     "requirementsTitle": "系統需求",
@@ -302,11 +310,15 @@
       ],
       [
         "如何標註與精確調整選取範圍？",
-        "擷取工具列提供箭頭、矩形、橢圓、手繪、文字、步驟編號與馬賽克。可選六種顏色、三種線條粗細，移動標註，並復原或重做。初次框選及拖曳邊框時，局部像素放大預覽可協助對齊細節；拖曳邊線或四角可調整裁切範圍。"
+        "擷取工具列提供箭頭、矩形、橢圓、手繪、文字、步驟編號與馬賽克。可選六種顏色、三種線條粗細，移動標註，並復原或重做。初次框選及拖曳邊框時，局部像素放大預覽可協助對齊細節；拖曳邊線或四角可調整裁切範圍。加入文字時，在空白處按一下即可開始輸入，按 Return、Escape 或點按別處即結束。打好的文字可直接拖曳，按兩下重新編輯；文字選取時，工具列的顏色和文字大小只套用到這段文字（2.0 起）。"
+      ],
+      [
+        "如何擷取截圖中的文字？",
+        "框好選取範圍後，點按工具列中的「拷貝截圖中的文字」，辨識出的文字會以純文字拷貝到剪貼簿。貼圖也可以：按右鍵選擇「拷貝文字」拷貝全部文字；或選擇「選取文字」，直接在貼圖上拖曳選取需要的部分，按 ⌘C 拷貝，按 Escape 結束。辨識使用 macOS 內建的文字辨識，全程在這台 Mac 上進行，不需要連網，支援中文、英文、日文、韓文和大多數歐洲語言等。被馬賽克遮住的內容不會被辨識。開機後第一次辨識可能需要等幾秒。此功能自 2.0 起提供。"
       ],
       [
         "浮動貼圖怎麼用？",
-        "選擇釘在螢幕上，或按 ⇧⌘P 擷取後直接貼圖。拖曳移動、捲動縮放，按住 Option 捲動可調整不透明度。按右鍵可複製、儲存或啟用點按穿透。穿透後無法點按時，可在選單列恢復釘圖互動。按兩下貼圖，或在貼圖作用中時按 Escape，可關閉貼圖。"
+        "選擇釘在螢幕上，或按 ⇧⌘P 擷取後直接貼圖。拖曳移動、捲動縮放，按住 Option 捲動可調整不透明度。按右鍵可複製、儲存或啟用點按穿透。穿透後無法點按時，可在選單列恢復釘圖互動。按兩下貼圖，或在貼圖作用中時按 Escape，可關閉貼圖。右鍵選單還可以「拷貝文字」或「選取文字」，取出貼圖中的文字（2.0 起）。"
       ],
       [
         "擷圖存在哪裡？可以選 PNG 或 JPEG 嗎？",
@@ -339,7 +351,7 @@
       ],
       [
         "本機處理與暫存檔案",
-        "擷圖與標註在記憶體中處理，可複製、儲存為 PNG 或 JPEG，或保留為浮動貼圖。錄影與 GIF 轉換會使用本機暫存檔案，App 會在匯出或取消後嘗試刪除。複製 GIF 會保留一份本機快取，以便結束或重新啟動後仍可貼上；該檔案會保留到下次複製新 GIF 時被取代，舊快取隨後刪除。自行儲存的檔案會保留到你刪除。"
+        "擷圖與標註在記憶體中處理，可複製、儲存為 PNG 或 JPEG，或保留為浮動貼圖。錄影與 GIF 轉換會使用本機暫存檔案，App 會在匯出或取消後嘗試刪除。複製 GIF 會保留一份本機快取，以便結束或重新啟動後仍可貼上；該檔案會保留到下次複製新 GIF 時被取代，舊快取隨後刪除。自行儲存的檔案會保留到你刪除。文字辨識（2.0 起）使用 macOS 內建的辨識功能，全程在本機進行；辨識出的文字只會放入剪貼簿，不會上傳、儲存或傳送到任何地方。"
       ],
       [
         "設定與檔案存取",
@@ -373,7 +385,7 @@
       ],
       [
         "隨手標註",
-        "箭頭、矩形、橢圓、畫筆、文字、序號和馬賽克，工具列就在選取範圍旁邊。完成前標註都能再移動，之後拷貝、儲存或釘在螢幕上皆可。"
+        "箭頭、矩形、橢圓、畫筆、文字、序號和馬賽克，工具列就在選取範圍旁邊。完成前標註都能再移動，之後拷貝、儲存或釘在螢幕上皆可。文字按一下就能輸入，打完可以隨手拖曳，顏色和文字大小在工具列中調整。「拷貝截圖中的文字」可辨識選取範圍內的文字，全程在本機完成（2.0 起）。"
       ],
       [
         "長截圖",
@@ -394,7 +406,7 @@
     "support": "サポート",
     "policy": "プライバシーポリシー",
     "tagline": "Mac で撮影・録画・注釈・ピン留め",
-    "date": "施行日：2026年10月10日",
+    "date": "施行日：2026年10月17日",
     "contact": "お問い合わせ",
     "questions": "よくある質問",
     "requirementsTitle": "システム要件",
@@ -432,11 +444,15 @@
       ],
       [
         "注釈や正確な範囲調整はできますか？",
-        "ツールバーには矢印、四角形、楕円、手描き、テキスト、手順番号、モザイクがあります。6 色と 3 段階の線幅を選べ、注釈の移動、取り消し、やり直しもできます。最初の範囲選択と辺の調整では、拡大ピクセルプレビューが位置合わせを助けます。枠の辺や角をドラッグして範囲を調整してください。"
+        "ツールバーには矢印、四角形、楕円、手描き、テキスト、手順番号、モザイクがあります。6 色と 3 段階の線幅を選べ、注釈の移動、取り消し、やり直しもできます。最初の範囲選択と辺の調整では、拡大ピクセルプレビューが位置合わせを助けます。枠の辺や角をドラッグして範囲を調整してください。テキストは、空いている場所をクリックして入力し、Return、Escape、またはほかの場所のクリックで確定します。確定したテキストはドラッグで移動、ダブルクリックで再編集できます。選択中は、ツールバーの色とテキストサイズがそのテキストに適用されます（2.0 以降）。"
+      ],
+      [
+        "スクリーンショットの文字をコピーするには？",
+        "範囲を決めたら、ツールバーの「取り込んだ範囲のテキストをコピー」をクリックします。読み取った文字がプレーンテキストとしてクリップボードにコピーされます。ピンでも使えます。右クリックで「テキストをコピー」を選ぶとすべての文字を、「テキストを選択」を選ぶとピン上で必要な部分をドラッグして選び、⌘C でコピーできます。Escape で選択を終了します。読み取りには macOS 内蔵のテキスト認識を使い、すべてこの Mac 上で処理されるため、ネット接続は不要です。日本語、英語、中国語、韓国語、多くのヨーロッパ言語などに対応します。モザイクで隠した部分は読み取られません。再起動後の最初の読み取りは数秒かかることがあります。2.0 から利用できます。"
       ],
       [
         "ピン留めの使い方は？",
-        "画面にピン留めを選ぶか、⇧⌘P で撮影して直接ピン留めします。ドラッグで移動、スクロールで拡大縮小、Option を押しながらスクロールで不透明度を調整できます。右クリックでコピー、保存、クリック透過を選べます。透過を解除するにはメニューバーからピンのクリック操作を復元してください。ダブルクリック、または選択中のピンで Escape を押すと閉じます。"
+        "画面にピン留めを選ぶか、⇧⌘P で撮影して直接ピン留めします。ドラッグで移動、スクロールで拡大縮小、Option を押しながらスクロールで不透明度を調整できます。右クリックでコピー、保存、クリック透過を選べます。透過を解除するにはメニューバーからピンのクリック操作を復元してください。ダブルクリック、または選択中のピンで Escape を押すと閉じます。右クリックの「テキストをコピー」「テキストを選択」で、ピンの文字も取り出せます（2.0 以降）。"
       ],
       [
         "保存先と PNG・JPEG の選択は？",
@@ -469,7 +485,7 @@
       ],
       [
         "ローカル処理と一時ファイル",
-        "画像と注釈はメモリで処理し、コピー、PNG・JPEG 保存、ピン留めができます。録画と GIF 変換にはローカルの一時ファイルを使い、書き出しやキャンセル後に削除を試みます。GIF のコピーでは、終了・再起動後も貼り付けられるようローカルキャッシュを保持します。次の GIF コピーで置き換え、古いキャッシュを削除します。保存したファイルはユーザーが削除するまで残ります。"
+        "画像と注釈はメモリで処理し、コピー、PNG・JPEG 保存、ピン留めができます。録画と GIF 変換にはローカルの一時ファイルを使い、書き出しやキャンセル後に削除を試みます。GIF のコピーでは、終了・再起動後も貼り付けられるようローカルキャッシュを保持します。次の GIF コピーで置き換え、古いキャッシュを削除します。保存したファイルはユーザーが削除するまで残ります。テキスト認識（2.0 以降）は macOS 内蔵の認識機能を使い、すべて端末上で処理されます。読み取った文字はクリップボードに入るだけで、アップロード、保存、送信されることはありません。"
       ],
       [
         "設定とファイルアクセス",
@@ -503,7 +519,7 @@
       ],
       [
         "注釈を入れる",
-        "矢印、四角形、楕円、手描き、テキスト、番号、モザイクを、選択範囲のすぐ横のツールバーから。完了するまで注釈は動かせます。あとはコピー、保存、ピン留めのいずれかを選ぶだけです。"
+        "矢印、四角形、楕円、手描き、テキスト、番号、モザイクを、選択範囲のすぐ横のツールバーから。完了するまで注釈は動かせます。あとはコピー、保存、ピン留めのいずれかを選ぶだけです。テキストはクリックしてすぐ入力でき、入力後は自由にドラッグできます。色とテキストサイズはツールバーで変更します。「取り込んだ範囲のテキストをコピー」で選択範囲の文字を読み取れます。処理はすべてこの Mac 上で行われます（2.0 以降）。"
       ],
       [
         "スクロール撮影",
@@ -524,7 +540,7 @@
     "support": "지원",
     "policy": "개인정보 처리방침",
     "tagline": "Mac에서 캡처, 녹화, 주석, 화면 고정",
-    "date": "시행일: 2026년 10월 10일",
+    "date": "시행일: 2026년 10월 17일",
     "contact": "문의하기",
     "questions": "자주 묻는 질문",
     "requirementsTitle": "시스템 요구 사항",
@@ -562,11 +578,15 @@
       ],
       [
         "주석을 추가하고 영역을 정확하게 맞추려면?",
-        "도구 막대에서 화살표, 사각형, 타원, 자유 그리기, 텍스트, 단계 번호, 모자이크를 사용할 수 있습니다. 여섯 색상과 세 선 두께를 선택하고, 주석을 이동하거나 실행 취소와 다시 실행을 할 수 있습니다. 처음 영역을 정하거나 테두리를 조절할 때 픽셀 확대 미리보기가 정렬을 도와줍니다. 테두리나 모서리를 끌어 범위를 조절하세요."
+        "도구 막대에서 화살표, 사각형, 타원, 자유 그리기, 텍스트, 단계 번호, 모자이크를 사용할 수 있습니다. 여섯 색상과 세 선 두께를 선택하고, 주석을 이동하거나 실행 취소와 다시 실행을 할 수 있습니다. 처음 영역을 정하거나 테두리를 조절할 때 픽셀 확대 미리보기가 정렬을 도와줍니다. 테두리나 모서리를 끌어 범위를 조절하세요.텍스트는 빈 곳을 클릭해 입력하고, Return이나 Escape를 누르거나 다른 곳을 클릭하면 입력이 끝납니다. 입력한 텍스트는 끌어서 옮기고, 두 번 클릭해 다시 편집할 수 있습니다. 텍스트를 선택하면 도구 막대의 색상과 텍스트 크기가 그 텍스트에 적용됩니다(2.0부터)."
+      ],
+      [
+        "스크린샷의 텍스트를 복사하려면?",
+        "영역을 정한 뒤 도구 막대의 '캡처에서 텍스트 복사'를 클릭하면, 인식된 텍스트가 일반 텍스트로 클립보드에 복사됩니다. 고정 이미지에서도 됩니다. 오른쪽 클릭 후 '텍스트 복사'를 선택하면 전체 텍스트를, '텍스트 선택'을 선택하면 이미지 위에서 원하는 부분을 끌어 선택한 뒤 ⌘C로 복사할 수 있습니다. Escape를 누르면 선택 모드가 끝납니다. 인식에는 macOS에 내장된 텍스트 인식을 사용하며, 모든 처리가 이 Mac에서 이루어져 인터넷 연결이 필요 없습니다. 한국어, 영어, 중국어, 일본어, 대부분의 유럽 언어 등을 지원합니다. 모자이크로 가린 부분은 인식되지 않습니다. 재시동 후 첫 인식은 몇 초 걸릴 수 있습니다. 2.0부터 제공됩니다."
       ],
       [
         "화면 고정은 어떻게 사용하나요?",
-        "화면에 고정을 선택하거나 ⇧⌘P로 캡처 후 바로 고정하세요. 끌어서 이동하고, 스크롤로 크기를 조절하며, Option을 누른 채 스크롤하면 불투명도를 바꿀 수 있습니다. 오른쪽 클릭으로 복사, 저장, 클릭 통과를 선택하세요. 클릭 통과를 해제하려면 메뉴 막대에서 고정 이미지 다시 클릭 가능 명령을 사용하세요. 두 번 클릭하거나 활성화된 고정 이미지에서 Escape를 누르면 닫힙니다."
+        "화면에 고정을 선택하거나 ⇧⌘P로 캡처 후 바로 고정하세요. 끌어서 이동하고, 스크롤로 크기를 조절하며, Option을 누른 채 스크롤하면 불투명도를 바꿀 수 있습니다. 오른쪽 클릭으로 복사, 저장, 클릭 통과를 선택하세요. 클릭 통과를 해제하려면 메뉴 막대에서 고정 이미지 다시 클릭 가능 명령을 사용하세요. 두 번 클릭하거나 활성화된 고정 이미지에서 Escape를 누르면 닫힙니다.오른쪽 클릭 메뉴의 '텍스트 복사'와 '텍스트 선택'으로 고정 이미지의 글자도 가져올 수 있습니다(2.0부터)."
       ],
       [
         "어디에 저장되나요? PNG와 JPEG를 선택할 수 있나요?",
@@ -599,7 +619,7 @@
       ],
       [
         "로컬 처리와 임시 파일",
-        "스크린샷과 주석은 메모리에서 처리하며 복사, PNG 또는 JPEG 저장, 화면 고정이 가능합니다. 녹화와 GIF 변환은 로컬 임시 파일을 사용하고 내보내기나 취소 후 삭제를 시도합니다. GIF 복사는 앱 종료나 재시작 후에도 붙여넣을 수 있도록 로컬 캐시를 유지합니다. 다음 GIF 복사 때 파일을 교체하고 이전 캐시를 삭제합니다. 저장한 파일은 사용자가 삭제할 때까지 남습니다."
+        "스크린샷과 주석은 메모리에서 처리하며 복사, PNG 또는 JPEG 저장, 화면 고정이 가능합니다. 녹화와 GIF 변환은 로컬 임시 파일을 사용하고 내보내기나 취소 후 삭제를 시도합니다. GIF 복사는 앱 종료나 재시작 후에도 붙여넣을 수 있도록 로컬 캐시를 유지합니다. 다음 GIF 복사 때 파일을 교체하고 이전 캐시를 삭제합니다. 저장한 파일은 사용자가 삭제할 때까지 남습니다.텍스트 인식(2.0부터)은 macOS에 내장된 인식 기능을 사용하며 모든 처리가 기기에서 이루어집니다. 인식된 텍스트는 클립보드에만 들어가며 업로드, 저장, 전송되지 않습니다."
       ],
       [
         "설정과 파일 접근",
@@ -633,7 +653,7 @@
       ],
       [
         "주석 달기",
-        "화살표, 사각형, 타원, 자유 그리기, 텍스트, 번호, 모자이크를 선택 영역 바로 옆 도구 막대에서 사용할 수 있습니다. 완료하기 전까지 주석은 계속 옮길 수 있고, 마치면 복사·저장·고정 중 하나를 고르면 됩니다."
+        "화살표, 사각형, 타원, 자유 그리기, 텍스트, 번호, 모자이크를 선택 영역 바로 옆 도구 막대에서 사용할 수 있습니다. 완료하기 전까지 주석은 계속 옮길 수 있고, 마치면 복사·저장·고정 중 하나를 고르면 됩니다.텍스트는 한 번 클릭해 바로 입력하고, 입력한 뒤에는 자유롭게 끌어 옮길 수 있습니다. 색상과 텍스트 크기는 도구 막대에서 바꿉니다. '캡처에서 텍스트 복사'로 선택 영역의 글자를 읽어 낼 수 있으며, 모든 처리는 이 Mac에서 이루어집니다(2.0부터)."
       ],
       [
         "스크롤 캡처",
@@ -654,7 +674,7 @@
     "support": "Support",
     "policy": "Datenschutzerklärung",
     "tagline": "Aufnehmen, aufzeichnen, markieren und anheften am Mac",
-    "date": "Gültig ab 10. Oktober 2026",
+    "date": "Gültig ab 17. Oktober 2026",
     "contact": "Kontakt",
     "questions": "Häufige Fragen",
     "requirementsTitle": "Systemanforderungen",
@@ -692,11 +712,15 @@
       ],
       [
         "Wie markiere ich etwas und passe den Ausschnitt genau an?",
-        "Die Werkzeugleiste bietet Pfeile, Rechtecke, Ellipsen, Freihandzeichnung, Text, Schrittnummern und Mosaik. Es gibt sechs Farben, drei Strichstärken, verschiebbare Anmerkungen sowie Rückgängig und Wiederholen. Die vergrößerte Pixelvorschau hilft bei der ersten Auswahl und beim Anpassen der Kanten. Ziehen Sie eine Kante oder Ecke, um den Ausschnitt zu ändern."
+        "Die Werkzeugleiste bietet Pfeile, Rechtecke, Ellipsen, Freihandzeichnung, Text, Schrittnummern und Mosaik. Es gibt sechs Farben, drei Strichstärken, verschiebbare Anmerkungen sowie Rückgängig und Wiederholen. Die vergrößerte Pixelvorschau hilft bei der ersten Auswahl und beim Anpassen der Kanten. Ziehen Sie eine Kante oder Ecke, um den Ausschnitt zu ändern. Für Text klicken Sie auf eine freie Stelle und tippen; Return, Escape oder ein Klick daneben schließt die Eingabe ab. Fertigen Text ziehen Sie zum Verschieben, ein Doppelklick bearbeitet ihn erneut, und solange er ausgewählt ist, gelten Farbe und Textgröße der Werkzeugleiste für ihn (ab 2.0)."
+      ],
+      [
+        "Wie kopiere ich den Text aus einem Bildschirmfoto?",
+        "Wählen Sie den Bereich und klicken Sie in der Werkzeugleiste auf Text aus der Aufnahme kopieren; der erkannte Text landet als reiner Text in der Zwischenablage. Das geht auch mit angehefteten Bildern: Per Rechtsklick kopiert Text kopieren den gesamten Text, und nach Text auswählen ziehen Sie direkt über die gewünschten Wörter und drücken ⌘C; Escape beendet die Auswahl. Die Erkennung nutzt die in macOS integrierte Texterkennung und läuft vollständig auf Ihrem Mac, ohne Internetverbindung. Sie liest Deutsch, Englisch, die meisten europäischen Sprachen, Chinesisch, Japanisch, Koreanisch und weitere. Mit Mosaik verdeckter Text wird nicht erkannt. Die erste Erkennung nach einem Neustart kann einige Sekunden dauern. Verfügbar ab 2.0."
       ],
       [
         "Wie funktionieren angeheftete Bilder?",
-        "Wählen Sie An Bildschirm anheften oder nehmen Sie mit ⇧⌘P direkt ein Referenzbild auf. Ziehen verschiebt es, Scrollen ändert die Größe und Option beim Scrollen die Deckkraft. Per Rechtsklick können Sie kopieren, speichern oder Klicks durchlassen. Wählen Sie Pins wieder anklickbar machen in der Menüleiste, um die Bedienung wieder zu aktivieren. Doppelklick oder Escape beim aktiven Bild schließt es."
+        "Wählen Sie An Bildschirm anheften oder nehmen Sie mit ⇧⌘P direkt ein Referenzbild auf. Ziehen verschiebt es, Scrollen ändert die Größe und Option beim Scrollen die Deckkraft. Per Rechtsklick können Sie kopieren, speichern oder Klicks durchlassen. Wählen Sie Pins wieder anklickbar machen in der Menüleiste, um die Bedienung wieder zu aktivieren. Doppelklick oder Escape beim aktiven Bild schließt es. Per Rechtsklick holen Text kopieren und Text auswählen auch die Wörter aus einem angehefteten Bild (ab 2.0)."
       ],
       [
         "Wo wird gespeichert, und kann ich PNG oder JPEG wählen?",
@@ -729,7 +753,7 @@
       ],
       [
         "Lokale Verarbeitung und temporäre Dateien",
-        "Bildschirmfotos und Anmerkungen werden im Speicher verarbeitet und können kopiert, als PNG oder JPEG gespeichert oder angeheftet werden. Videos und GIF-Konvertierung nutzen lokale temporäre Dateien, deren Löschung die App nach Export oder Abbruch versucht. GIF kopieren behält eine lokale Cache-Datei zum Einfügen nach Beenden oder Neustart. Beim nächsten GIF-Kopieren wird sie ersetzt und ältere Kopien werden gelöscht. Gespeicherte Dateien bleiben bis zu Ihrer Löschung erhalten."
+        "Bildschirmfotos und Anmerkungen werden im Speicher verarbeitet und können kopiert, als PNG oder JPEG gespeichert oder angeheftet werden. Videos und GIF-Konvertierung nutzen lokale temporäre Dateien, deren Löschung die App nach Export oder Abbruch versucht. GIF kopieren behält eine lokale Cache-Datei zum Einfügen nach Beenden oder Neustart. Beim nächsten GIF-Kopieren wird sie ersetzt und ältere Kopien werden gelöscht. Gespeicherte Dateien bleiben bis zu Ihrer Löschung erhalten. Die Texterkennung (ab 2.0) nutzt die in macOS integrierte Erkennung und läuft vollständig auf Ihrem Gerät; der erkannte Text gelangt nur in die Zwischenablage und wird weder hochgeladen noch gespeichert oder gesendet."
       ],
       [
         "Einstellungen und Dateizugriff",
@@ -763,7 +787,7 @@
       ],
       [
         "Markieren",
-        "Pfeile, Rechtecke, Ellipsen, Freihand, Text, Nummern und Mosaik – in einer Werkzeugleiste direkt neben der Auswahl. Bis zum Abschluss bleiben Markierungen verschiebbar; danach kopieren, sichern oder anheften."
+        "Pfeile, Rechtecke, Ellipsen, Freihand, Text, Nummern und Mosaik – in einer Werkzeugleiste direkt neben der Auswahl. Bis zum Abschluss bleiben Markierungen verschiebbar; danach kopieren, sichern oder anheften. Text tippen Sie mit einem Klick ein und ziehen ihn danach frei an seinen Platz; Farbe und Textgröße stellen Sie in der Werkzeugleiste ein. Text aus der Aufnahme kopieren liest die Wörter in der Auswahl, vollständig auf Ihrem Mac (ab 2.0)."
       ],
       [
         "Scroll-Aufnahme",
@@ -784,7 +808,7 @@
     "support": "Assistance",
     "policy": "Politique de confidentialité",
     "tagline": "Capturer, enregistrer, annoter et épingler sur Mac",
-    "date": "En vigueur le 10 octobre 2026",
+    "date": "En vigueur le 17 octobre 2026",
     "contact": "Nous contacter",
     "questions": "Questions fréquentes",
     "requirementsTitle": "Configuration requise",
@@ -822,11 +846,15 @@
       ],
       [
         "Comment annoter et ajuster précisément le cadrage ?",
-        "La barre propose flèches, rectangles, ellipses, dessin à main levée, texte, étapes numérotées et mosaïque. Vous disposez de six couleurs, trois épaisseurs, du déplacement des annotations, de l’annulation et du rétablissement. L’aperçu agrandi des pixels aide lors de la sélection initiale et des ajustements. Faites glisser un bord ou un coin pour changer le cadrage."
+        "La barre propose flèches, rectangles, ellipses, dessin à main levée, texte, étapes numérotées et mosaïque. Vous disposez de six couleurs, trois épaisseurs, du déplacement des annotations, de l’annulation et du rétablissement. L’aperçu agrandi des pixels aide lors de la sélection initiale et des ajustements. Faites glisser un bord ou un coin pour changer le cadrage. Pour du texte, cliquez sur une zone vide et tapez ; Retour, Escape ou un clic ailleurs termine la saisie. Faites glisser un texte terminé pour le déplacer, double-cliquez pour le modifier, et tant qu’il est sélectionné, la couleur et la Taille du texte de la barre s’y appliquent (à partir de 2.0)."
+      ],
+      [
+        "Comment copier le texte d’une capture ?",
+        "Après avoir cadré la sélection, cliquez sur Copier le texte de la capture dans la barre d’outils : le texte reconnu est copié dans le presse-papiers en texte brut. Cela fonctionne aussi avec les images épinglées : un clic droit sur Copier le texte copie tout le texte, et après Sélectionner le texte, faites glisser sur les mots voulus puis appuyez sur ⌘C ; Escape quitte la sélection. La reconnaissance utilise celle intégrée à macOS et s’effectue entièrement sur votre Mac, sans connexion. Elle lit le français, l’anglais, la plupart des langues européennes, le chinois, le japonais, le coréen et d’autres. Le texte masqué par une mosaïque n’est pas reconnu. La première reconnaissance après un redémarrage peut prendre quelques secondes. Disponible à partir de 2.0."
       ],
       [
         "Comment utiliser les images épinglées ?",
-        "Choisissez Épingler à l’écran ou utilisez ⇧⌘P pour capturer directement une référence flottante. Glissez pour déplacer, faites défiler pour redimensionner et maintenez Option en défilant pour ajuster l’opacité. Un clic droit permet de copier, enregistrer ou laisser passer les clics. Choisissez Rendre les épingles cliquables dans la barre des menus pour réactiver les clics. Un double clic ou Escape sur une image active la ferme."
+        "Choisissez Épingler à l’écran ou utilisez ⇧⌘P pour capturer directement une référence flottante. Glissez pour déplacer, faites défiler pour redimensionner et maintenez Option en défilant pour ajuster l’opacité. Un clic droit permet de copier, enregistrer ou laisser passer les clics. Choisissez Rendre les épingles cliquables dans la barre des menus pour réactiver les clics. Un double clic ou Escape sur une image active la ferme. Un clic droit propose aussi Copier le texte et Sélectionner le texte pour récupérer les mots d’une image épinglée (à partir de 2.0)."
       ],
       [
         "Où sont enregistrées les captures ? Peut-on choisir PNG ou JPEG ?",
@@ -859,7 +887,7 @@
       ],
       [
         "Traitement local et fichiers temporaires",
-        "Captures et annotations sont traitées en mémoire, puis peuvent être copiées, enregistrées en PNG ou JPEG ou épinglées. L’enregistrement et la conversion GIF utilisent des fichiers temporaires locaux ; l’app tente de les supprimer après export ou annulation. Copier le GIF conserve un fichier en cache pour permettre le collage après fermeture ou redémarrage. La copie d’un nouveau GIF le remplace et supprime les anciennes copies. Les fichiers enregistrés restent jusqu’à leur suppression par vos soins."
+        "Captures et annotations sont traitées en mémoire, puis peuvent être copiées, enregistrées en PNG ou JPEG ou épinglées. L’enregistrement et la conversion GIF utilisent des fichiers temporaires locaux ; l’app tente de les supprimer après export ou annulation. Copier le GIF conserve un fichier en cache pour permettre le collage après fermeture ou redémarrage. La copie d’un nouveau GIF le remplace et supprime les anciennes copies. Les fichiers enregistrés restent jusqu’à leur suppression par vos soins. La reconnaissance du texte (à partir de 2.0) utilise celle intégrée à macOS et s’effectue entièrement sur votre appareil ; le texte reconnu va uniquement dans le presse-papiers et n’est ni envoyé, ni stocké, ni transmis."
       ],
       [
         "Réglages et accès aux fichiers",
@@ -893,7 +921,7 @@
       ],
       [
         "Annoter",
-        "Flèches, rectangles, ellipses, dessin libre, texte, numéros et mosaïque, dans une barre d’outils juste à côté de la sélection. Les annotations restent déplaçables jusqu’à la fin ; ensuite, copiez, enregistrez ou épinglez le résultat."
+        "Flèches, rectangles, ellipses, dessin libre, texte, numéros et mosaïque, dans une barre d’outils juste à côté de la sélection. Les annotations restent déplaçables jusqu’à la fin ; ensuite, copiez, enregistrez ou épinglez le résultat. Un clic suffit pour saisir du texte, que vous déplacez ensuite librement ; la couleur et la taille du texte se règlent dans la barre d’outils. Copier le texte de la capture lit les mots de la sélection, entièrement sur votre Mac (à partir de 2.0)."
       ],
       [
         "Capture défilante",
@@ -914,7 +942,7 @@
     "support": "Soporte",
     "policy": "Política de privacidad",
     "tagline": "Captura, graba, anota y fija en el Mac",
-    "date": "En vigor desde el 10 de octubre de 2026",
+    "date": "En vigor desde el 17 de octubre de 2026",
     "contact": "Contacto",
     "questions": "Preguntas frecuentes",
     "requirementsTitle": "Requisitos",
@@ -952,11 +980,15 @@
       ],
       [
         "¿Cómo anoto y ajusto el encuadre con precisión?",
-        "La barra ofrece flechas, rectángulos, elipses, dibujo libre, texto, pasos numerados y mosaico. Hay seis colores, tres grosores, anotaciones que puedes mover y opciones de deshacer y rehacer. La vista ampliada de píxeles ayuda al seleccionar y ajustar bordes. Arrastra un borde o esquina para cambiar el encuadre."
+        "La barra ofrece flechas, rectángulos, elipses, dibujo libre, texto, pasos numerados y mosaico. Hay seis colores, tres grosores, anotaciones que puedes mover y opciones de deshacer y rehacer. La vista ampliada de píxeles ayuda al seleccionar y ajustar bordes. Arrastra un borde o esquina para cambiar el encuadre. Para texto, haz clic en un espacio vacío y escribe; Retorno, Escape o un clic en otro lugar terminan la edición. Arrastra el texto terminado para moverlo, haz doble clic para editarlo y, mientras está seleccionado, el color y el Tamaño del texto de la barra se aplican a él (desde 2.0)."
+      ],
+      [
+        "¿Cómo copio el texto de una captura?",
+        "Después de encuadrar la selección, haz clic en Copiar el texto de la captura en la barra; el texto reconocido se copia al portapapeles como texto sin formato. También funciona con las imágenes fijadas: con el clic derecho, Copiar texto copia todo el texto, y con Seleccionar texto puedes arrastrar sobre las palabras que quieras y pulsar ⌘C; Escape sale de la selección. El reconocimiento usa el que incluye macOS y se realiza por completo en tu Mac, sin conexión a internet. Lee español, inglés, la mayoría de los idiomas europeos, chino, japonés, coreano y otros. El texto tapado con mosaico no se reconoce. El primer reconocimiento tras reiniciar puede tardar unos segundos. Disponible desde 2.0."
       ],
       [
         "¿Cómo funcionan las imágenes fijadas?",
-        "Elige fijar en pantalla o usa ⇧⌘P para capturar directamente una referencia flotante. Arrastra para mover, desplázate para cambiar el tamaño y mantén Option al desplazarte para ajustar la opacidad. El clic derecho permite copiar, guardar y dejar pasar los clics. Elige Volver a permitir clics en las imágenes en la barra de menús para restablecer la interacción. Un doble clic o Escape en una imagen activa la cierra."
+        "Elige fijar en pantalla o usa ⇧⌘P para capturar directamente una referencia flotante. Arrastra para mover, desplázate para cambiar el tamaño y mantén Option al desplazarte para ajustar la opacidad. El clic derecho permite copiar, guardar y dejar pasar los clics. Elige Volver a permitir clics en las imágenes en la barra de menús para restablecer la interacción. Un doble clic o Escape en una imagen activa la cierra. El clic derecho también ofrece Copiar texto y Seleccionar texto para sacar las palabras de una imagen fijada (desde 2.0)."
       ],
       [
         "¿Dónde se guarda y puedo elegir PNG o JPEG?",
@@ -989,7 +1021,7 @@
       ],
       [
         "Procesamiento local y archivos temporales",
-        "Las capturas y anotaciones se procesan en memoria y pueden copiarse, guardarse como PNG o JPEG o fijarse en pantalla. La grabación y conversión a GIF usan archivos temporales locales que la app intenta eliminar tras exportar o cancelar. Copiar GIF conserva una copia local en caché para pegar incluso después de cerrar o reiniciar. Una nueva copia de GIF la reemplaza y elimina las anteriores. Los archivos guardados permanecen hasta que los borres."
+        "Las capturas y anotaciones se procesan en memoria y pueden copiarse, guardarse como PNG o JPEG o fijarse en pantalla. La grabación y conversión a GIF usan archivos temporales locales que la app intenta eliminar tras exportar o cancelar. Copiar GIF conserva una copia local en caché para pegar incluso después de cerrar o reiniciar. Una nueva copia de GIF la reemplaza y elimina las anteriores. Los archivos guardados permanecen hasta que los borres. El reconocimiento de texto (desde 2.0) usa el reconocimiento integrado en macOS y se realiza por completo en tu dispositivo; el texto reconocido solo va al portapapeles y no se sube, guarda ni envía a ninguna parte."
       ],
       [
         "Ajustes y acceso a archivos",
@@ -1023,7 +1055,7 @@
       ],
       [
         "Anotaciones",
-        "Flechas, rectángulos, elipses, trazo libre, texto, números y mosaico, en una barra de herramientas junto a la selección. Las anotaciones se pueden mover hasta que termines; después, copia, guarda o fija el resultado."
+        "Flechas, rectángulos, elipses, trazo libre, texto, números y mosaico, en una barra de herramientas junto a la selección. Las anotaciones se pueden mover hasta que termines; después, copia, guarda o fija el resultado. Escribe texto con un clic y después arrástralo donde quieras; el color y el tamaño del texto se cambian en la barra. Copiar el texto de la captura lee las palabras de la selección, por completo en tu Mac (desde 2.0)."
       ],
       [
         "Captura con desplazamiento",
@@ -1044,7 +1076,7 @@
     "support": "Suporte",
     "policy": "Política de Privacidade",
     "tagline": "Capture, grave, anote e fixe no Mac",
-    "date": "Vigente a partir de 10 de outubro de 2026",
+    "date": "Vigente a partir de 17 de outubro de 2026",
     "contact": "Fale conosco",
     "questions": "Perguntas frequentes",
     "requirementsTitle": "Requisitos",
@@ -1082,11 +1114,15 @@
       ],
       [
         "Como anoto e ajusto o enquadramento com precisão?",
-        "A barra oferece setas, retângulos, elipses, desenho livre, texto, etapas numeradas e mosaico. Há seis cores, três espessuras, anotações móveis, desfazer e refazer. A prévia ampliada de pixels ajuda na seleção inicial e no ajuste das bordas. Arraste uma borda ou um canto para ajustar o recorte."
+        "A barra oferece setas, retângulos, elipses, desenho livre, texto, etapas numeradas e mosaico. Há seis cores, três espessuras, anotações móveis, desfazer e refazer. A prévia ampliada de pixels ajuda na seleção inicial e no ajuste das bordas. Arraste uma borda ou um canto para ajustar o recorte. Para texto, clique em um espaço vazio e digite; Return, Escape ou um clique em outro lugar encerram a edição. Arraste o texto pronto para movê-lo, clique duas vezes para editá-lo e, enquanto ele estiver selecionado, a cor e o Tamanho do texto da barra se aplicam a ele (a partir da 2.0)."
+      ],
+      [
+        "Como copio o texto de uma captura?",
+        "Depois de enquadrar a seleção, clique em Copiar o texto da captura na barra; o texto reconhecido é copiado para a Área de Transferência como texto simples. Também funciona com imagens fixadas: com o clique direito, Copiar texto copia todo o texto, e com Selecionar texto você arrasta sobre as palavras desejadas e pressiona ⌘C; Escape encerra a seleção. O reconhecimento usa o recurso integrado ao macOS e acontece totalmente no seu Mac, sem conexão com a internet. Ele lê português, inglês, a maioria dos idiomas europeus, chinês, japonês, coreano e outros. Texto coberto por mosaico não é reconhecido. O primeiro reconhecimento após reiniciar pode levar alguns segundos. Disponível a partir da 2.0."
       ],
       [
         "Como funcionam as imagens fixadas?",
-        "Escolha fixar na tela ou use ⇧⌘P para capturar diretamente uma referência flutuante. Arraste para mover, role para redimensionar e segure Option ao rolar para ajustar a opacidade. O clique direito permite copiar, salvar e deixar os cliques passarem. Escolha Reativar cliques nas imagens na barra de menus para restaurar a interação. Um clique duplo ou Escape em uma imagem ativa a fecha."
+        "Escolha fixar na tela ou use ⇧⌘P para capturar diretamente uma referência flutuante. Arraste para mover, role para redimensionar e segure Option ao rolar para ajustar a opacidade. O clique direito permite copiar, salvar e deixar os cliques passarem. Escolha Reativar cliques nas imagens na barra de menus para restaurar a interação. Um clique duplo ou Escape em uma imagem ativa a fecha. O clique direito também oferece Copiar texto e Selecionar texto para tirar as palavras de uma imagem fixada (a partir da 2.0)."
       ],
       [
         "Onde as capturas são salvas? Posso escolher PNG ou JPEG?",
@@ -1119,7 +1155,7 @@
       ],
       [
         "Processamento local e arquivos temporários",
-        "Capturas e anotações são processadas na memória e podem ser copiadas, salvas como PNG ou JPEG ou fixadas. Gravações e conversões para GIF usam arquivos temporários locais; o app tenta apagá-los após exportação ou cancelamento. Copiar GIF mantém um arquivo em cache para colar após encerrar ou reiniciar o app. A próxima cópia de GIF substitui o arquivo e remove as cópias antigas. Arquivos salvos permanecem até você excluí-los."
+        "Capturas e anotações são processadas na memória e podem ser copiadas, salvas como PNG ou JPEG ou fixadas. Gravações e conversões para GIF usam arquivos temporários locais; o app tenta apagá-los após exportação ou cancelamento. Copiar GIF mantém um arquivo em cache para colar após encerrar ou reiniciar o app. A próxima cópia de GIF substitui o arquivo e remove as cópias antigas. Arquivos salvos permanecem até você excluí-los. O reconhecimento de texto (a partir da 2.0) usa o recurso integrado ao macOS e acontece totalmente no seu dispositivo; o texto reconhecido vai apenas para a Área de Transferência e não é enviado, armazenado nem transmitido."
       ],
       [
         "Ajustes e acesso a arquivos",
@@ -1153,7 +1189,7 @@
       ],
       [
         "Anotações",
-        "Setas, retângulos, elipses, desenho livre, texto, números e mosaico, em uma barra de ferramentas ao lado da seleção. As anotações podem ser movidas até você terminar; depois, copie, salve ou fixe o resultado."
+        "Setas, retângulos, elipses, desenho livre, texto, números e mosaico, em uma barra de ferramentas ao lado da seleção. As anotações podem ser movidas até você terminar; depois, copie, salve ou fixe o resultado. Digite texto com um clique e depois arraste-o para onde quiser; a cor e o tamanho do texto ficam na barra de ferramentas. Copiar o texto da captura lê as palavras da seleção, totalmente no seu Mac (a partir da 2.0)."
       ],
       [
         "Captura com rolagem",

@@ -46,7 +46,7 @@ def build():
         for lang in LANGS:
             text = data[lang]
             assert set(text) == reference_keys, f'{lang}: missing translation fields'
-            assert len(text['faqs']) == 13 and len(text['privacySections']) == 8
+            assert len(text["faqs"]) == 14 and len(text['privacySections']) == 8
             assert len(text['features']) == 5
             title = text['policy' if privacy else 'support']
             tagline = f"{title} · {text['date' if privacy else 'tagline']}"

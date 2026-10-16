@@ -67,7 +67,7 @@ def verify():
                 assert (ROOT / parsed.path).is_file(), f'Broken link: {link}'
                 assert parse_qs(parsed.query).get('lang', [None])[0] in LANGS
         if path.name == 'index.html':
-            assert all(count == 13 + 5 for count in page.questions.values()), page.questions
+            assert all(count == 14 + 5 for count in page.questions.values()), page.questions
             assert content.count('https://apps.apple.com/app/id6798983115') >= len(LANGS), 'Missing App Store link'
             for lang in LANGS:
                 text = json.loads((ROOT / 'content/locales.json').read_text())[lang]
